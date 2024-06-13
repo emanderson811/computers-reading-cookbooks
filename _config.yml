@@ -31,6 +31,18 @@ baseurl: /computers-reading-cookbooks
 # location of code, the full url to your github repository
 source-code: https://github.com/emanderson811/computers-reading-cookbooks
 
+# Collections
+collections:
+  blog:
+    output: true
+
+# Set Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "blog"
+    values:
+      layout: "blog"
 ##########
 # GOOGLE ANALYTICS [optional!]
 #
