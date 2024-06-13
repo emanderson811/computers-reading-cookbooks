@@ -1,7 +1,9 @@
 ---
-layout: post
+layout: page
 title: Developing My Corpus
 tags: corpus data
+date: 2024-06-07
+author: Erin
 ---
 
 ## About the Iowa Cookbook Collection
