@@ -9,10 +9,11 @@
 #######
 # SITE SETTINGS
 #
-title: bootstrap5-template
-description: "a basic bootstrap 5 template for Jekyll with GitHub Pages"
-year: 2021
-author: evan will 
+title: Computers Reading Cookbooks
+description: "A project blog documenting the digitization and analysis of the Iowa Community Cookbook Collection"
+year: 2024
+author: 
+  name: Erin Ridnour 
 # add search box to navbar, true/false
 search: true
 
@@ -27,9 +28,9 @@ url:
 # use baseurl to add subsection of the domain, e.g. /timelinejs-template
 # on gh-pages this is a / followed by the name of the repository
 # baseurl is your github repository's name prefixed with a /
-baseurl:
+baseurl: /computers-reading-cookbooks
 # location of code, the full url to your github repository
-source-code: https://github.com/thecdil/bootstrap5-template
+source-code: https://github.com/emanderson811/computers-reading-cookbooks
 
 ##########
 # GOOGLE ANALYTICS [optional!]
@@ -56,6 +57,6 @@ defaults:
     values:
       layout: page
       permalink: /:basename:output_ext
-
+remote_theme: jekyll/minima
 # ignore stuff
 exclude: [docs/, Rakefile, README.md, LICENSE]
