@@ -12,8 +12,7 @@
 title: Computers Reading Cookbooks
 description: "A project blog documenting the digitization and analysis of the Iowa Community Cookbook Collection"
 year: 2024
-author: 
-  name: Erin Ridnour 
+author: Erin Ridnour 
 # add search box to navbar, true/false
 search: true
 
@@ -57,6 +56,6 @@ defaults:
     values:
       layout: page
       permalink: /:basename:output_ext
-
+theme: jekyll-theme-minima
 # ignore stuff
 exclude: [docs/, Rakefile, README.md, LICENSE]
