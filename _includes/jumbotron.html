@@ -11,10 +11,11 @@
     - "text-color" = [optional] set text color using bootstrap color (primary, secondary, success, danger, warning, info, light, dark, body, muted, white)
     - "bg" = [optional] set background color using bootstrap color (primary, secondary, success, danger, warning, info, light, dark, body, white)
     - "border" = [optional] to add border use true 
+    - "bg-image" = [optional] set background image, full URL
 
 {%- endcomment -%}
-<div class="p-5 mb-4 bg-{{ include.bg | default: 'light' }} rounded-3{% if include.border %} border{% endif %}">
-    <div class="container-fluid py-5{% if include.text-color %} text-{{ include.text-color }}{% endif %}">
+<div class="p-5 mb-4 bg-{{ include.bg | default: 'light' }} rounded-3{% if include.border %} border{% endif %}" {% if include['bg-image'] %}style="background-image: url('{{ include['bg-image'] }}'); background-size: cover;"{% endif %}>
+    <div class="container-fluid py-5{% if include.text-color %} text-{{ include.text-color }}{% endif %} bg-dark bg-opacity-50">
         {% if include.heading %}<h1 class="display-5 fw-bold">{{ include.heading }}</h1>{% endif %}
         {% if include.text %}<p class="col-md-8 fs-4">{{ include.text | markdownify }}</p>{% endif %}
         {% if include.button-text %}<a class="btn btn-{{ include.button-color | default: 'primary' }} btn-lg" href="{{ include.button-link | relative_url }}">{{ include.button-text }}</a>{% endif %}
