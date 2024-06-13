@@ -56,6 +56,6 @@ defaults:
     values:
       layout: page
       permalink: /:basename:output_ext
-theme: jekyll-theme-minima
+
 # ignore stuff
 exclude: [docs/, Rakefile, README.md, LICENSE]
