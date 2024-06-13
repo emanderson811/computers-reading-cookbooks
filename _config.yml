@@ -12,7 +12,7 @@
 title: Computers Reading Cookbooks
 description: "A project blog documenting the digitization and analysis of the Iowa Community Cookbook Collection"
 year: 2024
-author: Erin Ridnour 
+author: emanderson811 
 # add search box to navbar, true/false
 search: true
 
@@ -31,18 +31,6 @@ baseurl: /computers-reading-cookbooks
 # location of code, the full url to your github repository
 source-code: https://github.com/emanderson811/computers-reading-cookbooks
 
-# Collections
-collections:
-  blog:
-    output: true
-
-# Set Defaults
-defaults:
-  - scope:
-      path: ""
-      type: "blog"
-    values:
-      layout: "blog"
 ##########
 # GOOGLE ANALYTICS [optional!]
 #
@@ -62,12 +50,12 @@ google-analytics-id:
 #
 # Defaults to simplify front matter,
 # all files in the "pages" folder will be output at root of site
-defaults:
-  - scope:
-      path: "pages"
-    values:
-      layout: page
-      permalink: /:basename:output_ext
-
+#defaults:
+  #- scope:
+   #   path: "pages"
+   # values:
+    #  layout: page
+   #   permalink: /:basename:output_ext
+show_excerpts: true
 # ignore stuff
 exclude: [docs/, Rakefile, README.md, LICENSE]
