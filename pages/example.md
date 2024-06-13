@@ -1,7 +1,8 @@
 ---
+layout: page
 title: Example Page
 nav: Example
-nav_order: 1
+nav_order: 3
 ---
 
 Write pages in Markdown.
