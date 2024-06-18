@@ -4,6 +4,7 @@ title: Developing My Corpus
 tags: corpus data
 date: 2024-06-07
 author: Erin
+excerpt: Criteria for selecting the cookbooks for this project
 ---
 
 ## About the Iowa Cookbook Collection
