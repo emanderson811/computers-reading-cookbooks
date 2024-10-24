@@ -17,9 +17,9 @@ Cookbooks selected for this project should fit the following criteria:
 
 - Produced by a community organization, cooperative, or special interest group - formal or informal
 
--- No single-author publications or family collections
--- No state-wide compilations
--- No ingredient-specific corporate publications
+    - No single-author publications or family collections
+    - No state-wide compilations
+    - No ingredient-specific corporate publications
 
 Dataset was pulled from Alma using the “Iowa Cookbook Collection” designator in the catalog record
 
