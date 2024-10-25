@@ -8,7 +8,7 @@ excerpt: Criteria for selecting the cookbooks for this project
 ---
 
 ## About the Iowa Cookbook Collection
-
+{% include blockquote.html quote="Over the past century, many towns, organizations, and churches in Iowa have gathered recipes from members and published them, essentially preserving and documenting the culinary heritage of this state.  These cookbooks often contain family recipes, ethnic dishes, and history about the organization or area.  The Iowa State University Library is working to preserve these valuable wells of social history for use by future generations in understanding Iowa culture and history...These cookbooks contain not just recipes, but the history of the ethnic flavor of Iowa's people. Their contents can be used to illuminate the past and document the changes occurring in our population. We currently have about 3000 cookbooks dating back to the 1800's for Iowa in addition to about 100 historical America cookbooks dating back to the early 1700's. This project began in the early 1990's spurred on by two rather substantial gifts of cookbooks from Robert Smith or What Cheer and the family of Ruth Ellen Church, an ISU graduate and food editor for the Chicago Tribune." speaker="Iowa Cookbook Collection Exhibit" source="Iowa State University Special Collections and University Archives" %}
 
 ## My Selection Criteria for this Project: Iowa Community Cookbooks
 Cookbooks selected for this project should fit the following criteria:
