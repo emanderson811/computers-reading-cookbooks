@@ -13,7 +13,7 @@ I have been diving into the image scans for the first set of cookbooks selected 
 
 What stands out the most when you first start paging through these cookbooks are the head-scratchers, the ones that make you gasp at your desk and say "What in the world?"  
 
-{% include image.html objectid="/assets/pickle-salad.jpg;/assets/spaghetti-salad.jpg;/assets/tx715-2-m53-f753x-1992i241-dads-raw-potato-sandwich.JPG" caption="2-4-6 Salad;Spaghetti Salad;Dad's Raw Potato Sandwich" %}
+{% include image.html objectid="/assets/pickle-salad.JPG;/assets/spaghetti-salad.jpg;/assets/tx715-2-m53-f753x-1992i241-dads-raw-potato-sandwich.JPG" caption="2-4-6 Salad;Spaghetti Salad;Dad's Raw Potato Sandwich" %}
 
 As I looked through more and more books, however and not unexpectedly, I could see common recipes coming up again and again with different names and slightly different ingredients but very clearly a part of a shared food culture. If you've spent a good amount of time in the midwest or in Iowa specifically, you may be able to predict some of these common recipe families, and if you grew up here, some may unlock a food memory you haven't thought of since childhood. What I know as "7-Layer Salad" but what is also referred to as "24-hr Salad" and "Layered Lettuce Salad" appears in book after book with very little variation: layers of lettuce, celery, green pepper, onion, and frozen peas (and sometimes additional vegetables or hard boiled eggs) frosted with a thick layer of mayonnaise (or Miracle Whip) and topped with shredded cheese and bacon, best served after spending a night in the fridge to marinate. 
 
