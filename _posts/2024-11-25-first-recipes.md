@@ -21,8 +21,7 @@ As I looked through more and more books, however and not unexpectedly, I could s
 
 Other examples, while containing more variety in specific ingredients from recipe to recipe, as a whole are identifiable as a category by their shared preparation method and ingredient familes. "Luncheon Hamwiches," "Pizza Burgers," "Spamburgers," "Hanky Panks," are all open-faced sandwiches with ground meat, cheese, and sauces or seasonings spread on bread and baked or broiled. 
 
-
 {% include image.html objectid="/assets/tx715-2-m53-b6638x-1960i057-luncheon-hamwiches.JPG;/assets/tx715-2-m53-o97x-1982i014-hanky-panks.JPG;/assets/tx715-2-m53-r43x-1971i177-spamburgers.JPG;/assets/tx715-2-m53-s363x-1999i082-pizza-burgers.JPG" caption="Luncheon Hamwiches;Hanky Panks;Spamburgers;Pizza Burgers" %}
 
-With the popularity and proliferation of home gardens, Iowans will also inevitably need a variety of ways to deal with the late summer zucchini plague:
+With the popularity and proliferation of home gardens, Iowans also inevitably needed a variety of ways to deal with the late summer zucchini plague:
 {% include image.html objectid="/assets/tx715-2-m53-b6638x-1960i063-zucchini-casserole.JPG;/assets/tx715-2-m53-f753x-1992i182-zucchini-crisp.JPG;/assets/tx715-2-m53-s363x-1999i120-hot-cow-tongue.JPG" caption="Zucchini Casserole;Zucchini Crisp;Hot Cow Tongue" %}
