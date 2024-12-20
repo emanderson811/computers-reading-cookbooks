@@ -5,6 +5,7 @@ tags: corpus data
 date: 2024-06-07
 author: Erin
 excerpt: Criteria for selecting the cookbooks for this project
+image: tx715-2-m53-d38x-1974i001-crop.jpg
 ---
 
 ## About the Iowa Cookbook Collection
@@ -23,7 +24,7 @@ Cookbooks selected for this project should fit the following criteria:
 
 Dataset was pulled from Alma using the “Iowa Cookbook Collection” designator in the catalog record
 
-An original list of 1405 was cleaned for duplicates and any records not fitting the above criteria were removed creating a subset of “Iowa Community Cookbooks” numbering = 
+An original list of 1405 was cleaned for duplicates, and any records not fitting the above criteria were removed creating a subset of “Iowa Community Cookbooks” numbering = 982
 
 ## Choosing the First 200
 For Phase 1, a random selection of 200 books was selected from the Iowa Community Cookbooks list using the following steps:

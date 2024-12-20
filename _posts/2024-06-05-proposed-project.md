@@ -5,6 +5,7 @@ tags: documentation background
 date: 2024-06-05
 author: Erin
 excerpt: What is Computers Reading Cookbooks?
+image: cookbook_5xB.jpg
 ---
 
 

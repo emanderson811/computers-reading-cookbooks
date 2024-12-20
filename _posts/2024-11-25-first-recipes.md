@@ -5,6 +5,7 @@ date: 2024-11-25
 tags: recipes
 author: Erin
 excerpt: Some interesting finds from the first scanned cookbooks
+image: pickle-salad.JPG
 ---
 
 ## Some Recipes from the First Cookbooks Scanned
