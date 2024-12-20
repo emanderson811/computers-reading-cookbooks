@@ -31,3 +31,29 @@
     font-style: normal;
     font-size: 1rem !important;
 }
+
+/* Ensure the post list is a flex container */
+.post-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1em; /* Add space between items */
+  }
+  
+  /* Style each post item */
+  .post-item {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 1em; /* Add space between image and content */
+  }
+  
+  /* Style the post content */
+  .post-content {
+    flex: 1;
+  }
+  
+  /* Style the blog roll image */
+  .blog-roll-image {
+    max-width: 150px; /* Adjust the size as needed */
+    height: auto;
+  }

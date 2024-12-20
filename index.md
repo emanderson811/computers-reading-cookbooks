@@ -11,7 +11,9 @@ This is pulling one card per blog post. Use this code later to change to news it
 -->
 <div class="container">
     <div class="row">
-        {% for post in site.posts %}
+        {% assign sorted_posts = site.posts | sort: 'date' | reverse %}
+        {% assign recent_posts = sorted_posts | slice: 0, 3 %}
+        {% for post in recent_posts %}
             <div class="col-md-4">
                 {% include card.html 
                     text=post.excerpt 
@@ -19,7 +21,7 @@ This is pulling one card per blog post. Use this code later to change to news it
                     img=post.image 
                     alt=post.alt 
                     width="100" 
-                    url=post.url%}
+                    url=post.url %}
             </div>
         {% endfor %}
     </div>
