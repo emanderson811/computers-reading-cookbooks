@@ -1,0 +1,22 @@
+{% comment %}
+
+E.G. --> {% include feature/image-float.html objectid="/assets/img/Interview_Tracy_Heath.jpg" width="50" float="end" caption="Dr. Tracy Heath" alt="headshot image of Dr. Tracy Heath" %}
+
+Options: 
+- "objectid" = a relative link to an image file stored in this repository (that is not included in the collection), i.e. "/assets/img/evan.jpg"
+- "float" = will float image left or right and wrap text around it, choose from "start" (left) or "end" (right)
+- "alt" = alternative text describing the image. This is a required accessibility feature. If you do not fill this in but fill in the "caption" option, the "caption" will be included as the images alt value.
+- "link" = for option 1 above, the figure include automatically links to the item from your metadata. The link option allows you to manually add a different link for that image. For options 2 and 3, link will only be added if the link variable is set; otherwise, the link will be set to the external or relative image file. For multiple images of any option, you can also use multiple links, by splitting them with a semi-colons (optional)
+- "caption" = for option 1 above, the figure include automatically adds the title of the item from your metadata. The caption option allows you to manually add a different caption for that option, or give the value false ('caption=false' - no quotes around false) for none.  (optional)
+- "width" = will use responsive sizing to set the % size on desktop (will be 100% on mobile), choose from "25", "50", "75", or "100" (optional)
+
+{% endcomment %}
+
+<div class="about-narrowed-content text-center">
+    <figure class="figure mx-5{% if include.width %} w-{{ include.width }}{% endif %} float-{{ include.float }}">
+        {% if include.link %}<a href="{{ include.link }}">{% endif %}
+            <img src="{{ include.objectid | relative_url }}" alt="{{ include.alt | default: include.caption | escape }}" class="figure-img img-fluid rounded lazyload">
+        {% if include.link %}</a>{% endif %}
+        {% unless include.caption == false %}<figcaption class="figure-caption text-center caption-color">{{ include.caption }}</figcaption>{% endunless %}
+    </figure>
+</div>
