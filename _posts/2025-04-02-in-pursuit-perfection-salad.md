@@ -9,7 +9,7 @@ image: bhg-perfection-salad.jpg
 ---
 ## A *Very* Brief History of Domestic Science
 
-Domestic science (alternatively home economics and later family and consumer sciences), was a large-scale women-led reform movement at the turn of the 20th century to bring order and scientific principles to domestic labor and most notably, to change how Americans cooked and what they ate. Domestic scientists opened cooking schools, published magazines, gave lectures, and organized clubs in order to promote American women's work in the home as both professional and aligned with the rapidly modernizing and industrializing American food system. 
+Domestic science (alternatively home economics and later family and consumer sciences), was a large-scale women-led reform movement at the turn of the 20th century to bring order and scientific principles to domestic labor and most notably, to change how Americans cooked and what they ate. Domestic scientists opened cooking schools, published cookbooks and magazines, and organized clubs in order to promote American women's work in the home as both professional and aligned with the rapidly modernizing and industrializing American food system. 
 
 ## Origins of Perfection Salad and Popularity in Mass Market Cookbooks
 
@@ -20,6 +20,8 @@ Knox used the original name “Perfection Salad,” but many other brands includ
 {% include image.html objectid="/assets/post-images/knox-on-camera.jpg;/assets/post-images/knox-on-camera2.jpg;/assets/post-images/knox-quickies.jpg;/assets/post-images/knox-quickies2.jpg" %}
 
 {% include image.html objectid="/assets/post-images/jm-jello.jpg;/assets/post-images/jm-jello2.jpg;/assets/post-images/kelvinator.jpg;/assets/post-images/kelvinator2.jpg" %}
+Even iconic American chef James Beard acknowledged Cooke and published her recipe in his most influential book *James Beard's American Cookery* in 1972, calling Perfection Salad "a standard in American cuisine."
+
 ## Understanding Prevalence in Community Cookbooks
 
 It is always hard to judge the true popularity of recipes by their appearance in national cookbooks. Publication does not always or even often indicate actual widespread adoption by home cooks. A more reliable indication of the popularity of a recipe is it’s prevalence in community-generated cookbooks, collections of cherished recipes compiled to celebrate and showcase the cooking traditions of the community’s cooks.  
@@ -64,3 +66,18 @@ Search results for each of the above methods reveal a related family of recipes 
 Other variations of the original recipe include adding or subtracting vegetable and fruit ingredients and adding mayonnaise or similar ingredients to make the salad creamy. 
 
 {% include image.html objectid="/assets/post-images/first100-voyant-perfection-salad-dressing.JPG;/assets/post-images/tx715-2-m53-b6638x-1960i013-gelatin-coleslaw.JPG;/assets/post-images/fruited-perfection.jpg" %}
+
+## Sources
+
+Beard, James. *James Beard's American Cookery.* Boston: Little, Brown and Company, 1972.
+
+Shapiro, Laura. *Perfection Salad : Women and Cooking at the Turn of the Century.* New York: Farrar,    
+Straus, and Giroux, 1986.
+
+Grey, Sarah. “A Social History of Jell-O Salad.” Serious Eats, February 7, 2023. https://www.seriouseats.com/history-of-jell-o-salad. 
+
+Morgan, Bonnie. "Perfection Salad," *Topanga New Times* (Topanga, CA), Nov. 18, 2022.
+
+“Published Collections: Jell-O, America’s Most Favorite Dessert.” Hagley Museum and Library, September 12, 2018. https://www.hagley.org/librarynews/published-collections-americas-most-favorite-dessert. 
+
+Olver, Lynne. “Perfection Salad.” The food timeline FAQ: salads. Accessed May 1, 2025. https://www.foodtimeline.org/foodsalads.html#perfectionsalad. 
