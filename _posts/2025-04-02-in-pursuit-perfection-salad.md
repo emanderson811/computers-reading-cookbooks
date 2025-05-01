@@ -39,7 +39,7 @@ Voyant can be used first to quickly identify the recipes throughout the corpus s
 
 Searching for "Perfection Salad" is a good first step, but from looking at mass market cookbooks and community cookbooks it is clear that many recipes identical or very similar to the original Perfection Salad were published under a variety of names. For these recipes, I could not rely on a title search and instead needed to determine the best set of collocates (words occurring near one another within a set number of words) to target the most likely matches. Cabbage and gelatin or Jell-O are a highly unique combination and appear to be the defining ingredients for this dish, so I decided to search for all instances where cabbage and gelatin (or the alternative spelling “gelatine” or Jell-O) appear within close proximity. The format of recipes in community cookbooks varies. Some have neat ingredient lists at the top, some have partial ingredient lists followed by new ingredients mentioned in the instructions, and some are entirely narrative instructions with ingredients mentioned throughout. This variability makes finding collocates a little tricky. For example, the two recipes below show widely different distances between the word "cabbage" and either "gelatin," "gelatine," or "jello." The first example has 16 words between gelatin and cabbage and the second example has 26 words between Jello and cabbage.  
 
-{% include image.html objectid="/assets/post-images/make-ahead-slaw.JPG;/assets/post-images/first100-voyant-perfection-salad-30words.JPG" %}
+{% include image.html objectid="/assets/post-images/make-ahead-slaw.JPG;/assets/post-images/first100-voyant-perfection-salad-30words.JPG" caption="tx715-m53-m5422x-1976;Recipe for Perfection Salad, excerpt from Voyant" %}
 
 The distance on either side between your target word (cabbage) and your collocates (gelatin, gelatine, and jello) is called your "context window." In this case, the ability to adjust and search a large context window is important. Voyant Tools allows you to adjust your context window and can identify collocates across your corpus, but you cannot drill down to the individual document, and while the tools are intended to be interoperable, they often don’t behave has expected or intended when switching between them. Additionally, Voyant cannot search for specific collocates, it can only display a full list of collocates that you then have to scroll through to find the ones you're interested in. In this case, Voyant Tools is helpful for a first look at our collocates, but we need to look for a different tool to get more detailed and accurate results.  
 
@@ -65,7 +65,7 @@ Search results for each of the above methods reveal a related family of recipes 
 
 Other variations of the original recipe include adding or subtracting vegetable and fruit ingredients and adding mayonnaise or similar ingredients to make the salad creamy. 
 
-{% include image.html objectid="/assets/post-images/first100-voyant-perfection-salad-dressing.JPG;/assets/post-images/tx715-2-m53-b6638x-1960i013-gelatin-coleslaw.JPG;/assets/post-images/fruited-perfection.jpg" %}
+{% include image.html objectid="/assets/post-images/first100-voyant-perfection-salad-dressing.JPG;/assets/post-images/tx715-2-m53-b6638x-1960i013-gelatin-coleslaw.JPG;/assets/post-images/fruited-perfection.jpg" caption="Recipe for Perfection Salad and Dressing, excerpt from Voyant;tx715-2-m53-b6638x-1960;Recipe for Fruited Perfection from *Joys of Jell-O,* 4th ed." %}
 
 ## Sources
 
