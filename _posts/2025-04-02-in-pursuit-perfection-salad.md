@@ -1,6 +1,6 @@
 ---
 layout: page
-title: In Pursuit of Perfection Salad
+title: "In Pursuit of Perfection Salad, Part One"
 date: 2025-04-02
 tags: recipes text analysis jello
 author: Erin
@@ -56,7 +56,7 @@ AntConc has many other helpful visualization tools including the Plot tool which
 
 ### Python and NLTK
 
-The next step, which I have just begun exploring, is using Python and the Natural Language Toolkit (NLTK). Using Python sacrifices the convenience of Voyant and AntConc's GUIs for more power, speed, and flexibility. In the excerpt from my Jupyter Notebook below, it shows the first five matches of "cabbage" with either "gelatin," "gelatine," or "jello" with a context window of 15 words on either side and with a larger context of 50 words printed to make checking the recipe easier without having to view the full text. This is a very promising path that I will be exploring further, so stay tuned!
+The next step, which I have just begun exploring, is using Python and the Natural Language Toolkit (NLTK). Using Python sacrifices the convenience of Voyant and AntConc's GUIs for more power, speed, and flexibility. In the excerpt from my Jupyter Notebook below, it shows the first five matches of "cabbage" with either "gelatin," "gelatine," or "jello" with a context window of 15 words on either side and with a larger context of 50 words printed to make checking the recipe easier without having to view the full text. This is a very promising path that I will be exploring in [Part Two](https://emanderson811.github.io/computers-reading-cookbooks/2025/07/31/in-pursuit-pt2.html)!
 {% include image.html objectid="/assets/post-images/python-cabbage.JPG" %}
 
 ## Theme and Variations
