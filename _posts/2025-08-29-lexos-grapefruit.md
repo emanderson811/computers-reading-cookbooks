@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Lexos Discovers the Grapefruit Diet"
-date: 2025-08-25
+date: 2025-08-29
 tags: recipes text analysis lexos
 author: Erin
 excerpt: Using Lexos to uncover unexpected trends using Top Words analysis
