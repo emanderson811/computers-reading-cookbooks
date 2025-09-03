@@ -88,7 +88,7 @@ The answer was quickly discovered upon viewing the digitized cookbooks, but I th
 
 Three of the four books are from the late 1940s and early 1950s, but one book has the date 1910 in the call number which seemed out of place considering it contained the identical diet pages of the other books. To investigate this, I looked at the catalog record for this book which actually states "between 1910 and 1940?" in the Creation Date field, most likely an approximation based on the look and content since the book does not have a printed date. In this case, I think we can assume the book is from around the time of the other 3 books (~1948-1952) given the inclusion of identical diet information and even an identical image and layout to the 1952 Bethel book. 
 
-One additional book had a similarly high proportion of "grapefruit" occurences but did not contain this same diet section. It turns out the folks in Pella just *really* like grapefruit! Grapefruit pie, anyone?
+One additional book had a similarly high proportion of "grapefruit" occurrences but did not contain this same diet section. It turns out the folks in Pella just *really* like grapefruit! Grapefruit pie, anyone?
 
 {% include image-float.html objectid="/assets/post-images/tx715-2-m53-p452x-1948-pella.jpg" caption="Vegetable Salad recipe identified by Python" width="25" float="start" %}
 
@@ -123,7 +123,7 @@ One additional book had a similarly high proportion of "grapefruit" occurences b
   </div>
 </div>
 
-In the next post I will dive deeper with Lexos to identify clusters of similar cookbooks using the K-Means tool and investigate what makes each cluster unique with the Top Words tool. Stay tuned!
+In the next post I will dive deeper with Lexos to identify clusters of similar cookbooks using the K-Means tool and investigate what makes each cluster unique with the "classes" comparison in the Top Words tool. Stay tuned!
 
 
 
