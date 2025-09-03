@@ -52,19 +52,19 @@ After reviewing and cleaning the results, I was able to identify 50 individual r
     <div class="col-md-4 mb-4">
       <figure>
         <img src="{{ site.baseurl }}/assets/post-images/tx715-2-m53-a165x-1976-pdf-111.jpg" class="img-fluid rounded shadow" alt="Ham-Cabbage Salad Molds recipe">
-        <figcaption class="text-center mt-2">Ham-Cabbage Salad Molds From tx715-2-m53-a165x-1976</figcaption>
+        <figcaption class="text-center mt-2">Ham-Cabbage Salad Molds From '76 Cookbook: Tested Recipes from Plymouth Congregational United Church of Christ, Des Moines, IA</figcaption>
       </figure>
     </div>
     <div class="col-md-4 mb-4">
       <figure>
         <img src="{{ site.baseurl }}/assets/post-images/tx715-2-m53-b34x-1982-pdf-152.jpg" class="img-fluid rounded shadow" alt="Cabbage salad recipe">
-        <figcaption class="text-center mt-2">Cabbage Salad From tx715-2-m53-b34x-1982</figcaption>
+        <figcaption class="text-center mt-2">Cabbage Salad From Bagley, Iowa Centennial Cookbook: 1882-1982</figcaption>
       </figure>
     </div>
     <div class="col-md-4 mb-4">
       <figure>
         <img src="{{ site.baseurl }}/assets/post-images/tx715-2-m53-c69x-1973-pdf-181.jpg" class="img-fluid rounded shadow" alt="Church Dinner Cabbage Salad recipe">
-        <figcaption class="text-center mt-2">Church Dinner Cabbage Salad From tx715-2-m53-c69x-1973</figcaption>
+        <figcaption class="text-center mt-2">Church Dinner Cabbage Salad From Country Kitchen Favorites: Women of Pomeroy Covenant Church</figcaption>
       </figure>
     </div>
   </div>
@@ -72,19 +72,19 @@ After reviewing and cleaning the results, I was able to identify 50 individual r
     <div class="col-md-4 mb-4">
       <figure>
         <img src="{{ site.baseurl }}/assets/post-images/tx715-2-m53-c6646x-1950-pdf-29.jpg" class="img-fluid rounded shadow" alt="Garden crisp salad recipe">
-        <figcaption class="text-center mt-2">Garden Crisp Salad From tx715-2-m53-c6646x-1950</figcaption>
+        <figcaption class="text-center mt-2">Garden Crisp Salad From American Legion Auxiliary Cook Book</figcaption>
       </figure>
     </div>
     <div class="col-md-4 mb-4">
       <figure>
         <img src="{{ site.baseurl }}/assets/post-images/tx715-2-m53-f365x-1928-pdf-14.jpg" class="img-fluid rounded shadow" alt="Perfection salad recipe">
-        <figcaption class="text-center mt-2">Perfection Salad From tx715-2-m53-f365x-1928</figcaption>
+        <figcaption class="text-center mt-2">Perfection Salad From Delaware County Farm Bureau Cook Book, 1928</figcaption>
       </figure>
     </div>
     <div class="col-md-4 mb-4">
       <figure>
         <img src="{{ site.baseurl }}/assets/post-images/tx715-2-m53-s713x-1910-pdf-4.jpg" class="img-fluid rounded shadow" alt="Breath of Spring Salad recipe">
-        <figcaption class="text-center mt-2">Breath of Spring Salad From tx715-2-m53-s713x-1910</figcaption>
+        <figcaption class="text-center mt-2">Breath of Spring Salad From St. John's Lutheran Church Ladies' Aid Society, Jefferson, Iowa </figcaption>
       </figure>
     </div>
   </div>
