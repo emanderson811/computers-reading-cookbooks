@@ -14,7 +14,7 @@ In [Part One](https://emanderson811.github.io/computers-reading-cookbooks/2025/0
 
 ## Setting up the Jupyter Notebook
 
-I have used Python and the Natural Language Toolkit to search for words and create a concordance before, but I have not ever used it to identify collocates, so I used ChatGPT to help me think through the steps necessary in Python and refine my code.  The code excerpt below shows variables defined for the target word "cabbage" as well as the gelatin collocates or "trigger words, the context window size of 15, and an additional wider window of 50 words to get a larger snippet of context. The image also shows my function "find_proximity_matches" which applies my defined variables, finds matches, and returns the filenames and text snippets. 
+I have used Python and the Natural Language Toolkit to search for words and create a concordance before, but I have not ever used it to identify collocates, so I used ChatGPT to help me think through the steps necessary in Python and refine my code.  The code excerpt below shows variables defined for the target word "cabbage" as well as the gelatin collocates or "trigger words" and the context window size of 15. While reviewing the results of my first test with this code I realized that the 15-word context window was not enough text for me to tell whether the recipe was truly a match, so I decided to print larger 50-word snippets for each result to make reviewing easier. The image below also shows my function "find_proximity_matches" which applies my defined variables, finds matches, and returns the filenames and text snippets. 
 
 {% include image.html objectid="/assets/post-images/jupyter-cabbage-collocates-function.jpg" caption="Excerpt from Python notebook" %}
 
