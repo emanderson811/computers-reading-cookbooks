@@ -90,7 +90,7 @@ Three of the four books are from the late 1940s and early 1950s, but one book ha
 
 One additional book had a similarly high proportion of "grapefruit" occurrences but did not contain this same diet section. It turns out the folks in Pella just *really* like grapefruit! Grapefruit pie, anyone?
 
-{% include image-float.html objectid="/assets/post-images/tx715-2-m53-p452x-1948-pella.jpg" caption="Vegetable Salad recipe identified by Python" width="25" float="start" %}
+{% include image-float.html objectid="/assets/post-images/tx715-2-m53-p452x-1948-pella.jpg" caption="Pella's Choicest Recipes, The Women's Auxiliary of Central College, 1948 " width="25" float="start" %}
 
 <div class="container my-4">
   <div class="row">
