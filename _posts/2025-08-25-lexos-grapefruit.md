@@ -14,13 +14,13 @@ image: first100-Lexos-top-grapefruit.jpg
 
 Lexos is an open-source tool for corpus cleaning and analysis built by the [Lexomics Research Group](https://wheatoncollege.edu/academics/special-projects-initiatives/lexomics/) at Wheaton College. I am using the browser-based version, but there is also a version available for local installation.
 
-Lexos provides several options for cleaning and normalizing your data prior to your analysis. Using the Scrub tool you can remove punctuation, numbers, and spaces, lowercase all text, remove a defined list of stop words and import rules for handling special characters. For this corpus, I removed punctuation and digits and made all lowercase. I also uploaded a standard set of stop words from the Natural Language Toolkit which to remove common words like "the," "and," "is," etc.
+Lexos provides several options for cleaning and normalizing your data prior to your analysis. Using the Scrub tool you can remove punctuation, numbers, and spaces, lowercase all text, remove a defined list of stop words and import rules for handling special characters. For this corpus, I removed punctuation and digits and made all lowercase. I also uploaded a standard set of stop words from the Natural Language Toolkit to remove common words like "the," "and," "is," etc.
 
-Once you've applied all desired cleaning steps you can either export you cleaned corpus for use in another tool, or use it to explore a variety of visualization and analysis options within Lexos including word clouds and bubble graphs as well as dendrograms, k-means clustering, and osine similarity measures. 
+Once you've applied all desired cleaning steps you can either export your cleaned corpus for use in another tool, or use it to explore a variety of visualization and analysis options within Lexos including word clouds and bubble graphs as well as dendrograms, k-means clustering, and cosine similarity measures. 
 
 ## Top Words Analysis 
 
-{% include image-float.html objectid="/assets/post-images/lexos-topwords.jpg" caption="Lexos Scrub Tool Screen" width="50" float="end" %}
+{% include image-float.html objectid="/assets/post-images/lexos-topwords.jpg" caption="Lexos Top Words Results" width="50" float="end" %}
 
 One of Lexos' features that I found most useful and have chosen to explore further is the Top Words tool. Top Words allows you to compare each individual document to the corpus as a whole to determine which words are unique to particular texts. You can choose to tokenize by tokens, characters, or n-grams and you can make a few adjustments to the number and frequency of terms to compare. If you've clustered your texts into what Lexos calls "classes" you can also compare each class of texts to all others, an option that I'll be exploring in a later post. 
 
@@ -28,7 +28,7 @@ To begin, I chose to compare each document to the corpus by unigram tokens. I no
 
 ## Why so much grapefruit?
 
-Among the large spreadsheet of numbers, I noticed what seemed like an unusual number of books with high proportions of the word "grapefruit" compared to the corpus - five books to be exact. Grapefruit is not a common recipe ingredient, and while this analysis is meant to highlight unique words within specific books, I would have expected perhaps one or two "grapefruit" books, but not five. Why all the grapefruit?
+Amid the large spreadsheet of numbers, I noticed what seemed like an unusual number of books with high proportions of the word "grapefruit" compared to the corpus - five books to be exact. Grapefruit is not a common recipe ingredient, and while this analysis is meant to highlight unique words within specific books, I would have expected perhaps one or two "grapefruit" books, but not five. Why all the grapefruit?
 
 The answer was quickly discovered upon viewing the digitized cookbooks, but I think the results demonstrate the value of this type of exploratory text analysis and are therefore worth sharing. I opened the first pdf, hit "ctrl-f" for "grapefruit," and found all 31 mentions of grapefruit clustered in one section, the diet section. Three more cookbooks after that contained the exact same section produced by the exact same Dr. Orr. The "18-Day Reducing Diet," also known as the Hollywood Diet and more commonly, the Grapefruit Diet, includes one grapefruit half with every meal for 18 days. This diet became popular in 1930s Hollywood before spreading across the U.S. and reamerging several times in different forms throughout the twentieth century. 
 <div class="container my-4">
