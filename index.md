@@ -20,7 +20,8 @@ This is pulling one card per blog post. Use this code later to change to news it
                     header=post.title 
                     img=post.image 
                     alt=post.alt 
-                    width="100" 
+                    width="100"
+                    height="25" 
                     url=post.url %}
             </div>
         {% endfor %}
