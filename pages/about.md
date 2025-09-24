@@ -9,4 +9,4 @@ Iowa church and community cookbooks can reveal a lot about the historic demograp
 
 Using Python and the Natural Language Toolkit (and other Natural Language Processing (NLP) Python libraries), this project will examine a text corpus of community cookbooks from the Library’s Iowa Cookbook Collection in order to identify groupings of similar recipes that can reveal a shared food culture among Iowa communities as well as the evolution and adaptation of shared recipes over time and recipes that share ingredients and similar preparation but are called by different or ambiguous names. This analysis will also identify recipes that are unique to particular communities and that may highlight ethnic and cultural histories of those communities that are worthy of further study.
 
-This project is led by Erin Ridnour, digital scholarship librarian, Digital Scholarship and Initiatives, Iowa State University.
+This project is led by Erin Ridnour, digital scholarship librarian, Digital Scholarship and Initiatives, Iowa State University Library.
