@@ -14,7 +14,7 @@ description: "A project blog documenting the digitization and analysis of the Io
 year: 2025
 author: emanderson811 
 # add search box to navbar, true/false
-search: true
+search: false
 
 ##########
 # URL VARIABLES [optional!]
