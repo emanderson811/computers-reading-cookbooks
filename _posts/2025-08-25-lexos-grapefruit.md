@@ -123,7 +123,7 @@ One additional book had a similarly high proportion of "grapefruit" occurrences 
   </div>
 </div>
 
-In the next post I will dive deeper with Lexos to identify clusters of similar cookbooks using the K-Means tool and investigate what makes each cluster unique with the "classes" comparison in the Top Words tool. Stay tuned!
+In a future post I will dive deeper with Lexos to identify clusters of similar cookbooks using the K-Means tool and investigate what makes each cluster unique with the "classes" comparison in the Top Words tool. Stay tuned!
 
 
 
