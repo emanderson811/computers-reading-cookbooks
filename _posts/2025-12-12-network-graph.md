@@ -9,7 +9,7 @@ image: first100-network.jpg
 ---
 
 ## Where We Left Off: 
-In my last post, I explored several different methods for measuring similarity of cookbooks and visualized the results of those methods as scatter plots. I found that using the Tf-idf vectorizer along with cosine distance was the most useful way to cluster similar texts, but a static scatter plot quickly becomes unreadable the more cookbooks are added. I wanted to explore another way of visualizing those results that would be interactive, visually appealing, and more appropriate for the web, so I turned to the popular Javascript library D3 to build a network graph.
+In my [last post](https://emanderson811.github.io/computers-reading-cookbooks/2025/12/10/measuring-similarity.html), I explored several different methods for measuring similarity of cookbooks and visualized the results of those methods as scatter plots. I found that using the Tf-idf vectorizer along with cosine distance was the most useful way to cluster similar texts, but a static scatter plot quickly becomes unreadable the more cookbooks are added. I wanted to explore another way of visualizing those results that would be interactive, visually appealing, and more appropriate for the web, so I turned to the popular Javascript library D3 to build a network graph.
 
 ## Preparing My Data for Visualization
 
