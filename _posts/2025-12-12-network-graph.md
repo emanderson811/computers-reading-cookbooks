@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Measuring and Visualizing Cookbook Similarity, Part Two"
-date: 2025-12-01
+date: 2025-12-12
 tags:
 author: Erin
 excerpt: Exploring a network graph of cosine distances built with D3.js
@@ -17,8 +17,14 @@ I used ChatGPT to help pull information from both my cosine distance matrix and 
 
 ## Iowa Community Cookbook Collection Network
 
-The graph below represents the cosine distances of the first 100 cookbooks digitized for this project. Each dot or "node" on the graph represents a cookbook in the dataset. Cookbooks with a similarity score over 0.5 (lower distance) are connected by a line or "edge."
+The graph below represents the cosine similarities (the inverse of the cosine distances we calculated) of the first 100 cookbooks digitized for this project. Each dot or "node" on the graph represents a cookbook in the dataset. Cookbooks with a similarity score over 0.5 (lower distance) are connected by a line or "edge."
 
-To interact with the network you can hover over nodes to see cookbook information, mouse-scroll to zoom in and out, click and drag to see other sections, and click and drag nodes to put the network back in motion.
+To interact with the network you can hover over nodes to see cookbook information, mouse-scroll to zoom in and out, click and drag to see other sections, and click and drag nodes to put the network back in motion. Below the graph, you can click the checkbox to rebuild the network with edges only between cookbooks with high similarity (≥ 0.7).
 
+If you zoom far out, you will notice nodes on their own, far away from the central clusters. These nodes are the cookbooks this analysis has deemed least similar to any other cookbook in the corpus. A network graph cannot tell us *why* a cookbook is similar or not, so like the scatter plot results, it will require further investigation to determine what is going on with each of these outliers. I do recognize one right away - tx715-2-m52-s632x-1956 or *Snack-time Symphony* is a book published by an Ackley Band Mothers group who used music-related words and puns in nearly every recipe title throughout the book, which I believe explains why it is so different from the rest.
+
+<div style="padding-top: 30px">
 {% include cookbook-network.html %}
+</div>
+
+ 
