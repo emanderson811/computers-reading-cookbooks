@@ -1,0 +1,12 @@
+---
+layout: page
+title: Tags
+---
+<h1>Tags</h1>
+<ul class="tag-list">
+  {% for tag in site.tags %}
+    <li>
+      <a href="{{ '/tags/' | append: tag[0] | relative_url }}">{{ tag[0] }}</a> ({{ tag[1].size }})
+    </li>
+  {% endfor %}
+  </ul>
