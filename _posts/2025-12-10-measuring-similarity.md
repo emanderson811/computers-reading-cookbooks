@@ -3,6 +3,8 @@ layout: page
 title: "Measuring and Visualizing Cookbook Similarity, Part One"
 date: 2025-12-10
 tags:
+- text analysis
+- python
 author: Erin
 excerpt: Exploring different word vectorizers and distance measures for determining similarities among cookbooks
 image: cosine-distance-scatter.jpg

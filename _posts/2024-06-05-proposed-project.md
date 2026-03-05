@@ -1,7 +1,9 @@
 ---
 layout: page
 title: My Proposed Project
-tags: documentation background
+tags: 
+- documentation
+- background
 date: 2024-06-05
 author: Erin
 excerpt: What is Computers Reading Cookbooks?

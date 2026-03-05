@@ -2,7 +2,9 @@
 layout: page
 title: Exploring the First 25 with Voyant
 date: 2024-12-20
-tags: recipes text analysis
+tags:
+- recipes
+- text analysis
 author: Erin
 excerpt: Visualizing and analyzing the first 25 scanned cookbooks using Voyant-Tools
 image: first-25-top-cloud.JPG

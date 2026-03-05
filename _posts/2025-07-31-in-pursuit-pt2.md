@@ -2,7 +2,11 @@
 layout: page
 title: "In Pursuit of Perfection Salad, Part Two"
 date: 2025-07-31
-tags: recipes text analysis jello python
+tags:
+- recipes
+- text analysis
+- jello
+- python
 author: Erin
 excerpt: Searching for a classic domestic science recipe using Python
 image: tx715-2-m53-c6636x-1940-ocr-tesseract-missed.jpg

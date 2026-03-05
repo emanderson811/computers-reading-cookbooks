@@ -2,7 +2,10 @@
 layout: page
 title: "In Pursuit of Perfection Salad, Part One"
 date: 2025-04-02
-tags: recipes text analysis jello
+tags:
+- recipes
+- text analysis
+- jello
 author: Erin
 excerpt: Searching for a classic domestic science recipe using AntConc's collocates tool
 image: bhg-perfection-salad.jpg

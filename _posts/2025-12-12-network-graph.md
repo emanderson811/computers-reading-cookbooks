@@ -3,6 +3,8 @@ layout: page
 title: "Measuring and Visualizing Cookbook Similarity, Part Two"
 date: 2025-12-12
 tags:
+- network analysis
+- d3
 author: Erin
 excerpt: Exploring a network graph of cosine distances built with D3.js
 image: first100-network.jpg
