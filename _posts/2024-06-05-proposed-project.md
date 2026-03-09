@@ -30,10 +30,10 @@ By examining this important Library collection in a new way using Natural Langua
 
 ### Project Justification/Benefits
 
-* Use of machine learning to highlight and examine an important library collection in new ways
-* Supports DSI skills development in text analysis/machine learning for future teaching opportunities
-* Develops a dataset and text analysis workflow for potential future use in DH bootcamps, DSI/RDS workshop series, or graduate fellowships where a deep dive into digitization and corpus development for text analysis from start to finish is desirable 
-* Supports DSI collections as data efforts, establishes possible workflow for future collections as data efforts (w/ Preservation)
+* Uses machine learning to highlight and examine an important library collection in new ways
+* Supports departmental skills development in text analysis/machine learning for future teaching opportunities
+* Develops a dataset and text analysis workflow for potential future use in DH bootcamps, workshop series, or graduate fellowships where a deep dive into digitization and corpus development for text analysis from start to finish is desirable 
+* Supports department's collections as data efforts, establishes possible workflow for future collections as data efforts
 * Supports land grant mission to provide greater access to Iowa cultural material
-* Opportunity for partnership with AI/machine learning experts and scholars interested in food history/Iowa history outside of the library
-* Identify opportunities for future development of the Iowa Cookbook Collection from underrepresented Iowa communities
+* Provides opportunities for partnership with AI/machine learning experts and scholars interested in food history/Iowa history outside of the library
+* Opens opportunities for future development of the Iowa Cookbook Collection from underrepresented Iowa communities
