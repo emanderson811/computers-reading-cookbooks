@@ -27,13 +27,18 @@ Voyant provides several different options for exploring word frequencies in your
 
 ## Collocates
 
+The collocates tool identifies the words that occur most frequently within a designated context window from your defined search term. Tool windows within Voyant interact with one another, so when you search for frequency of the word "cream" in the Trends tool, the Collocates tool updates to show results for "cream." From the results below, we can see that butter, sugar, and shortening are likely from the common instruction to "cream" butter or shortening and sugar together. The frequent mentions of "soup" are likely the very common "cream of" soups in casserole dishes (mushroom, celery, chicken, etc.).
+
 {% include image.html objectid="/assets/post-images/first-25-cream.JPG;/assets/post-images/first-25-cream-collocates.JPG" caption="Frequency of 'cream' in first 25 cookbooks;Most frequent co-occuring words with 'cream'" %}
 
 ## Entity Recognition
+
+Voyant performs named entity recognition using SpaCy and highlights results within the Reader pane with a dropdown list of entity categories arranged by frequency including: event, facility, geopolitical entity, language, person, and more. For community cookbooks, this tool can be useful for identifying recipe contributors who provided the most recipes to a particular cookbook. 
 
 {% include image.html objectid="/assets/post-images/first-25-entity-recognition.JPG" caption="Entity recognition for the First Congregational Church of Forest City cookbook" %}
 
 
 ## Document Clustering
 
+Voyant provides a tool for visualizing document similarity which is helpful for getting an idea of possible clusters of texts; however, the options for modification are limited, and the visualization becomes much harder to interpret as the number of texts increases. 
 {% include image.html objectid="/assets/post-images/first-25-scatter.JPG" caption="Document similarity scatter plot, TF-IDF frequencies" %}
