@@ -1,0 +1,7 @@
+<div class="salad-recipe-randomizer" data-recipes-url="{{ '/assets/data/salads-structured.json' | relative_url }}">
+    <button type="button" class="salad-recipe-button">Show Me a Salad Recipe</button>
+    <p class="salad-recipe-status" role="status"></p>
+    <article class="salad-recipe-card" aria-live="polite" aria-atomic="true" hidden></article>
+    <noscript><p>Please enable JavaScript to pick a recipe from the recipe box.</p></noscript>
+</div>
+<script src="{{ '/assets/js/salad-recipe-randomizer.js' | relative_url }}" defer></script>
