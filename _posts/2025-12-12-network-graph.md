@@ -26,7 +26,7 @@ To interact with the network you can hover over nodes to see cookbook informatio
 If you zoom far out, you will notice nodes on their own, far away from the central clusters. These nodes are the cookbooks this analysis has deemed least similar to any other cookbook in the corpus. A network graph cannot tell us *why* a cookbook is similar or not, so like the scatter plot results, it will require further investigation to determine what is going on with each of these outliers. I do recognize one right away - tx715-2-m52-s632x-1956 or *Snack-time Symphony* is a book published by an Ackley Band Mothers group who used music-related words and puns in nearly every recipe title throughout the book, which I believe explains why it is so different from the rest.
 
 <div style="padding-top: 30px">
-{% include cookbook-network.html %}
+{% include /cookbook-viz/cookbook-network.html %}
 </div>
 
  
