@@ -1,5 +1,13 @@
-<footer class="mt-auto border-top bg-light">
-    <div class="container my-4">
-        <p><a href="{{ '/' | relative_url }}">{{ site.title }}</a> | {{ site.description }}, {{ site.author }} {{ site.year }}</p>
+<footer class="site-footer" id="about">
+    <div>
+        <p class="eyebrow">Local sources. Larger questions.</p>
+        <h2>{{ site.title | escape }}</h2>
+        <p>A project led by Erin Ridnour<br>Digital Scholarship and Initiatives · Iowa State University Library</p>
     </div>
+    <nav aria-label="Project resources">
+        <a href="{{ '/pages/about.html' | relative_url }}">About the project</a>
+        <a href="https://digitalcollections.lib.iastate.edu/cookbooks">Cookbook collection</a>
+        <a href="{{ site.source-code }}">Source code</a>
+    </nav>
+    <p class="site-footer-credit">Food history / Community collections / Computational text analysis</p>
 </footer>

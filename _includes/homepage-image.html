@@ -1,0 +1,19 @@
+{% comment %}
+Homepage image slot. Supply src, alt, and caption for a real image.
+Set eager=true for images visible on initial page load.
+Omit src to show a styled cover placeholder using label, title, and detail.
+Example: {% include homepage-image.html src="/assets/cover.jpg" alt="..." caption="Title, organization, date. Source credit." %}
+{% endcomment %}
+<figure class="homepage-image{% unless include.src %} image-placeholder{% endunless %}">
+  {% if include.src %}
+  <img src="{{ include.src | relative_url }}" alt="{{ include.alt | escape }}" loading="{% if include.eager %}eager{% else %}lazy{% endif %}" decoding="async">
+  {% else %}
+  <div class="placeholder-content">
+    <p class="placeholder-label">{{ include.label | escape }}</p>
+    <p class="placeholder-title">{{ include.title | escape }}</p>
+    <span class="placeholder-flower" aria-hidden="true">✳</span>
+    <p class="placeholder-detail">{{ include.detail | escape }}</p>
+  </div>
+  {% endif %}
+  {% if include.caption %}<figcaption>{{ include.caption | escape }}</figcaption>{% endif %}
+</figure>

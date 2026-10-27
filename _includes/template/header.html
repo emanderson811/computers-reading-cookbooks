@@ -1,34 +1,19 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container">
-        <a class="navbar-brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
-
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarContent">
-            <ul class="navbar-nav me-auto">
-                {% assign nav_pages = site.html_pages | where_exp: 'p','p.nav' | sort: 'nav_order' %}
-                {% for p in nav_pages %}
-                <li class="nav-item">
-                    <a class="nav-link{% if page.url == p.url %} active{% endif %}" {% if page.url == p.url %}aria-current="page"{% endif %} href="{{ p.url | relative_url }}">{% if p.nav == true %}{{ p.title }}{% else %}{{ p.nav }}{% endif %}</a>
-                </li>
-                {% endfor %}
-            </ul>
-            {% if site.search == true %}
-            <script>
-                function site_search() {
-                    var query = document.getElementById("site-search").value;
-                    window.open("{{ '/search.html' | relative_url }}?q=" + encodeURIComponent(query), "_self" );
-                    }
-            </script>
-            <form class="d-flex" onsubmit="site_search(); return false;">
-                <div class="input-group">
-                    <input id="site-search" class="form-control" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-primary" type="submit">{% include icon.html icon="search" label="Submit Search" %}</button>
-                </div>
-            </form>
-            {% endif %}
-        </div>
-    </div>
-</nav>
+<header class="site-header">
+    <a class="wordmark" href="{{ '/' | relative_url }}" {% if page.url == '/' %}aria-current="page"{% endif %}>Computers Reading<br>Cookbooks<span class="wordmark-dot" aria-hidden="true">●</span></a>
+    <nav class="primary-nav" aria-label="Main navigation">
+        <a href="{{ '/' | relative_url }}#explore">Explore</a>
+        <a href="{{ '/' | relative_url }}#findings">Findings</a>
+        <a href="{{ '/' | relative_url }}#methods">Methods &amp; data</a>
+        {% assign nav_pages = site.html_pages | where_exp: 'p','p.nav' | sort: 'nav_order' %}
+        {% for p in nav_pages %}
+        <a href="{{ p.url | relative_url }}"{% if page.url == p.url %} aria-current="page"{% endif %}>{% if p.nav == true %}{{ p.title | escape }}{% else %}{{ p.nav | escape }}{% endif %}</a>
+        {% endfor %}
+    </nav>
+    {% if site.search == true %}
+    <form class="site-search" action="{{ '/pages/search.html' | relative_url }}" method="get" role="search">
+        <label class="visually-hidden" for="site-search">Search the site</label>
+        <input class="form-control" id="site-search" type="search" name="q" placeholder="Search the site">
+        <button class="btn btn-outline-primary" type="submit">Search</button>
+    </form>
+    {% endif %}
+</header>

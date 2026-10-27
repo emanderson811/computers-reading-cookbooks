@@ -3,13 +3,15 @@
     <head>
         {% include template/head.html %}
     </head>
-    <body class="d-flex flex-column h-100">
+    <body{% if page.homepage %} class="homepage"{% endif %}>
         <div id="skip-to-content"><a href="#maincontent">Skip to main content</a></div>
-        {% include template/header.html %}
-        <main id="maincontent" role="main" aria-label="Content" class="flex-shrink-0">
-        {{ content }}
-        </main>
-        {% include template/footer.html %}
+        <div class="page-shell site-frame">
+            {% include template/header.html %}
+            <main id="maincontent" class="site-main" tabindex="-1">
+                {{ content }}
+            </main>
+            {% include template/footer.html %}
+        </div>
         {% include template/foot.html %}
     </body>
 </html>

@@ -2,7 +2,7 @@
 layout: page
 title: About
 nav: About
-nav-order: 2
+nav_order: 2
 ---
 
 Computers Reading Cookbooks is a collections-as-data project examining a selection of community cookbooks from the Library’s Iowa Cookbook Collection. Using Python and natural language processing tools, this project analyzes the cookbook corpus to identify shared food traditions, trace how dishes evolve over time, and identify both common and culturally distinct recipes across Iowa communities.

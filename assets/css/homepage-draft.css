@@ -1,0 +1,2 @@
+/* Compatibility entry for old draft links; project styles live in _sass/_custom.scss. */
+@import url("main.css");

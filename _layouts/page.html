@@ -1,9 +1,14 @@
 ---
 layout: default 
 ---
-<div class="container my-3">
-    {% if page.title %}<h1>{{ page.title }}</h1>{% endif %}
-    <div style="margin-top: 50px">
+<article class="page-content">
+    {% if page.title %}
+    <header class="page-heading">
+        <h1>{{ page.title | escape }}</h1>
+        {% if page.subtitle %}<p class="page-subtitle">{{ page.subtitle | escape }}</p>{% endif %}
+    </header>
+    {% endif %}
+    <div class="site-prose">
         {{ content }}
     </div>
-</div>
+</article>
