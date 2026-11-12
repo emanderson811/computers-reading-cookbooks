@@ -1,0 +1,7 @@
+<nav class="post-series" aria-label="In Pursuit of Perfection Salad series">
+  <p>This is Part {% if include.part == 1 %}One{% else %}Two{% endif %} of a two-part investigation, In Pursuit of Perfection Salad.</p>
+  <ul>
+    <li><a href="{{ '/2025/04/02/in-pursuit-perfection-salad.html' | relative_url }}"{% if include.part == 1 %} aria-current="page"{% endif %}>Part One: History and intro to text-analysis tools</a></li>
+    <li><a href="{{ '/2025/07/31/in-pursuit-pt2.html' | relative_url }}"{% if include.part == 2 %} aria-current="page"{% endif %}>Part Two: Digging deeper with Python</a></li>
+  </ul>
+</nav>

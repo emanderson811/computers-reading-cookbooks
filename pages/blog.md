@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Blog
-nav: Blog
+title: Research Notebook
+nav: Research Notebook
 nav_order: 1
 ---
 

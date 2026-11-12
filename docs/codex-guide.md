@@ -18,6 +18,9 @@ This website shares the scholarly outcomes and interactive/exploratory data visu
 
 **Anti-references** corporate, trendy, social media-esque. Standard template elements like horizontal bar header image and nav bar, visible grid structure.
 
+Do not use eyebrow text (small labels above headings) in page designs. Use headings directly without introductory category labels or numbered section labels.
+
+
 ### Accessibility
 
 Full WCAG 2.1 AA standards compliance. Reduced motion preferences respected throughout.

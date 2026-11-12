@@ -12,6 +12,8 @@ excerpt: Searching for a classic domestic science recipe using Python
 image: tx715-2-m53-c6636x-1940-ocr-tesseract-missed.jpg
 ---
 
+{% include perfection-salad-series.html part=2 %}
+
 ## Where We Left Off
 
 In [Part One](https://emanderson811.github.io/computers-reading-cookbooks/2025/04/02/in-pursuit-perfection-salad.html), I attempted to identify recipes in my test corpus (the first 100 Iowa community cookbooks digitized out of an eventual 200) resembling the popular domestic-science-era concoction "Perfection Salad" using several common text analysis tools. By using both Voyant and AntConc I was able to find many examples, but each tool had limitations that prevented a thorough search. I had begun preparing a Python Jupyter Notebook that could search a wider context window for instances of "cabbage" co-occurring with "gelatin," "gelatine," or "jello." Now I'll walk through the steps I have taken using Python to create a list of Perfection-salad-like recipes as well as explore a few anomalies in my corpus which this process helped to uncover.

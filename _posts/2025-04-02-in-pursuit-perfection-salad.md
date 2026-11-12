@@ -10,6 +10,8 @@ author: Erin
 excerpt: Searching for a classic domestic science recipe using AntConc's collocates tool
 image: bhg-perfection-salad.jpg
 ---
+{% include perfection-salad-series.html part=1 %}
+
 ## A *Very* Brief History of Domestic Science
 
 Domestic science (alternatively home economics and later family and consumer sciences), was a large-scale women-led reform movement at the turn of the 20th century to bring order and scientific principles to domestic labor and most notably, to change how Americans cooked and what they ate. Domestic scientists opened cooking schools, published cookbooks and magazines, and organized clubs in order to promote American women's work in the home as both professional and aligned with the rapidly modernizing and industrializing American food system. 
@@ -59,7 +61,7 @@ AntConc has many other helpful visualization tools including the Plot tool which
 
 ### Python and NLTK
 
-The next step, which I have just begun exploring, is using Python and the Natural Language Toolkit (NLTK). Using Python sacrifices the convenience of Voyant and AntConc's GUIs for more power, speed, and flexibility. In the excerpt from my Jupyter Notebook below, it shows the first five matches of "cabbage" with either "gelatin," "gelatine," or "jello" with a context window of 15 words on either side and with a larger context of 50 words printed to make checking the recipe easier without having to view the full text. This is a very promising path that I will be exploring in [Part Two](https://emanderson811.github.io/computers-reading-cookbooks/2025/07/31/in-pursuit-pt2.html)!
+The next step, which I have just begun exploring, is using Python and the Natural Language Toolkit (NLTK). Using Python sacrifices the convenience of Voyant and AntConc's GUIs for more power, speed, and flexibility. In the excerpt from my Jupyter Notebook below, it shows the first five matches of "cabbage" with either "gelatin," "gelatine," or "jello" with a context window of 15 words on either side and with a larger context of 50 words printed to make checking the recipe easier without having to view the full text. This is a very promising path that I will be exploring in [Part Two]({{ '/2025/07/31/in-pursuit-pt2.html' | relative_url }})!
 {% include image.html objectid="/assets/post-images/python-cabbage.JPG" %}
 
 ## Theme and Variations
