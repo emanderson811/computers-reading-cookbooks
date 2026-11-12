@@ -14,3 +14,5 @@ The Iowa Community Cookbook Corpus is a text datast of 201 OCR'd cookbooks publi
 **[Erin Ridnour](https://digital.lib.iastate.edu/people/erin-ridnour.html)**, project lead, Digital Scholarship and Initiatives, Iowa State University Library
 
 **Mary Witkowski,** digital scholarship student assistant, Iowa State University Library
+
+**Special thanks** to everyone involved in the digital projects workflow from Iowa State University Library’s Special Collections and University Archives, Preservation, Metadata Services, and Digital Scholarship and Initiatives departments for their work in digitizing the cookbooks included in this project.
