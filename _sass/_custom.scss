@@ -49,7 +49,7 @@ img { display: block; max-width: 100%; height: auto; }
 .text-link { font-size: .95rem; font-weight: 600; }
 .catalog-line { margin-top: 2.2rem; font: .75rem/1.7 var(--mono); }
 .source-composition { min-width: 0; position: relative; min-height: 530px; margin-left: 1rem; }
-.cover { position: absolute; width: 59%; border: 1px solid var(--ink); box-shadow: 5px 6px 0 rgb(37 38 44 / 12%); }
+.cover { position: absolute; width: 59%; border: 1px solid var(--ink); box-shadow: 5px 6px 0 rgba(37, 38, 44, 0.12); }
 .cover-pink { top: 0; left: 1%; background: var(--pink); transform: rotate(-7deg); }
 .cover-yellow { top: 83px; right: 1%; background: var(--yellow); transform: rotate(8deg); }
 .image-placeholder { min-height: 300px; position: relative; padding: 1.25rem 1.1rem 1.25rem 2rem; }
