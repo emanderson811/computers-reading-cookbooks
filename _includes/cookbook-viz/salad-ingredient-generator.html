@@ -1,0 +1,25 @@
+<section class="salad-generator" data-ingredients-url="{{ '/assets/data/salad-ingredient-frequencies.json' | relative_url }}" aria-label="Build a salad">
+    <h2>Build a Salad</h2>
+    <p class="salad-generator-intro">Choose a category and spin five ingredients into a new salad combination. What will turn up in your bowl?</p>
+    <div class="salad-generator-controls" role="group" aria-label="Choose a salad category">
+        <button type="button" data-category="fruit" aria-pressed="false">Build a Fruit Salad</button>
+        <button type="button" data-category="jello" aria-pressed="false">Build a Jello Salad</button>
+        <button type="button" data-category="vegetable" aria-pressed="false">Build a Vegetable Salad</button>
+    </div>
+    <div class="salad-generator-machine" aria-busy="false">
+        <p class="salad-generator-label">Five ingredients. One unexpected salad.</p>
+        <ol class="salad-generator-reels" aria-label="Your salad ingredients">
+            {% for slot in (1..5) %}
+            <li class="salad-generator-reel">
+                <span class="salad-generator-number">{{ slot | prepend: '0' }}</span>
+                <div class="salad-generator-window" aria-hidden="true"><div class="salad-generator-track"><span class="salad-generator-token">?</span></div></div>
+                <span class="salad-generator-ingredient visually-hidden">Ingredient {{ slot }}: waiting for a spin</span>
+            </li>
+            {% endfor %}
+        </ol>
+    </div>
+    <p class="salad-generator-status" role="status" aria-atomic="true">Pick a category to start. Choose it again for another spin.</p>
+    <p class="salad-generator-sources">Appearance of ingredients in this generator are weighted by how often they occur in real salad recipes drawn from <cite>Salads for all occasions</cite> (St. Paul Lutheran Church, Ottumwa), <cite>Salad and casserole favorites</cite> (St. Mary of Nazareth, Des Moines), and <cite>Cook book, 1946</cite> (St. John's Evangelical and Reformed Church, Ackley). Salad recipes were manually assigned categories based on their primary ingredients and whether or not they contain gelatin.</p>
+    <noscript><p>Please enable JavaScript to spin the ingredients.</p></noscript>
+</section>
+<script src="{{ '/assets/js/salad-ingredient-generator.js' | relative_url }}" defer></script>

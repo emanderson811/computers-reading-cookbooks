@@ -1,0 +1,2812 @@
+{
+  "schema_version": 1,
+  "source_file": "assets/data/salad-ingredients.json",
+  "source_recipe_count": 185,
+  "counting_method": "Number of source recipes containing each normalized ingredient, once per recipe per category. Counts use ingredient lists only, not instruction text.",
+  "weighting_method": "sqrt(recipe_count), rounded to six decimals; sample without replacement and exclude locked ingredients from new draws.",
+  "normalization_notes": [
+    "Preparation, size, optional status, and fresh/frozen/canned forms are grouped where matched by explicit ingredient-family rules. Original names are retained in source_names.",
+    "Juices, gelatin flavors, named nut varieties, and named cheeses remain distinct. Cream preparations and marshmallow sizes are grouped.",
+    "Explicit compound entries are split where unambiguous. Unresolved alternatives and unclear transcriptions are excluded and listed in needs_review.",
+    "Water and seasonings remain available; the spinner can filter them without rebuilding counts."
+  ],
+  "source_read_notes": [
+    "Inserted 1 missing comma(s) after organization in memory.",
+    "Removed stray backticks from 1 object(s) in memory.",
+    "Removed 1 trailing comma(s) in memory.",
+    "Separated 1 cookbook header(s) sharing a root object in memory.",
+    "Read 3 consecutive cookbook objects separately."
+  ],
+  "cookbooks": [
+    {
+      "title": "Salads for all occasions",
+      "organization": "St. Paul Lutheran Church. American Lutheran Church Women (Ottumwa, Iowa)",
+      "recipe_count": 105
+    },
+    {
+      "title": "Salad and casserole favorites",
+      "organization": "St. Mary of Nazareth, Des Moines, Iowa",
+      "recipe_count": 48
+    },
+    {
+      "title": "Cook book, 1946",
+      "organization": "St. John's Evangelical and Reformed Church (Ackley, Iowa). Crescent Club",
+      "recipe_count": 32
+    }
+  ],
+  "categories": {
+    "fruit": {
+      "label": "Fruit",
+      "recipe_count": 51,
+      "ingredient_count": 76,
+      "ingredients": [
+        {
+          "name": "marshmallows",
+          "recipe_count": 35,
+          "weight": 5.91608,
+          "source_names": [
+            "diced marshmallows",
+            "large marshmallows - cut up - or 1 1/2 cups small marshmallows",
+            "marshmallows",
+            "marshmallows cut fine",
+            "marshmallows, cut in fourths",
+            "marshmallows, quartered",
+            "mini. marshmallows",
+            "Miniature Marshmallows",
+            "miniature marshmallows",
+            "small marshmallows"
+          ]
+        },
+        {
+          "name": "pineapple",
+          "recipe_count": 35,
+          "weight": 5.91608,
+          "source_names": [
+            "chunk pineapple",
+            "crushed pineapple",
+            "crushed pineapple (drained)",
+            "crushed pineapple (not drained)",
+            "crushed pineapple drained",
+            "Crushed Pineapple, drained",
+            "crushed pineapple, drained",
+            "crushed pineapple, not drained",
+            "Cubed pineapple",
+            "cubed pineapple",
+            "diced pineapple",
+            "drained pineapple tidbits",
+            "grated pineapple",
+            "pineapple",
+            "pineapple bits (drained)",
+            "pineapple chunks (drained)",
+            "pineapple chunks(drained)",
+            "pineapple crushed and drained",
+            "pineapple tidbits",
+            "pineapple tidbits (drained)",
+            "pineapple tidbits, drained",
+            "pineapple, cut fine",
+            "pineapple, drained",
+            "slice of pineapple",
+            "sliced pineapple",
+            "Tidbit Pineapple",
+            "well drained pineapple rings"
+          ]
+        },
+        {
+          "name": "cream",
+          "recipe_count": 29,
+          "weight": 5.385165,
+          "source_names": [
+            "cream",
+            "cream whipped",
+            "cream, whipped",
+            "heavy cream (whipped)",
+            "heavy cream whipped",
+            "heavy cream, whipped",
+            "heavy whipped cream",
+            "sweet cream",
+            "Whipped Cream",
+            "whipped cream",
+            "Whipping Cream",
+            "whipping cream",
+            "whipping cream whipped"
+          ]
+        },
+        {
+          "name": "sugar",
+          "recipe_count": 17,
+          "weight": 4.123106,
+          "source_names": [
+            "Sugar",
+            "sugar"
+          ]
+        },
+        {
+          "name": "bananas",
+          "recipe_count": 14,
+          "weight": 3.741657,
+          "source_names": [
+            "banana",
+            "banana sliced",
+            "Banana â€” sliced",
+            "bananas",
+            "bananas sliced",
+            "cut up bananas",
+            "diced bananas",
+            "Sliced Bananas",
+            "sliced bananas"
+          ]
+        },
+        {
+          "name": "apples",
+          "recipe_count": 12,
+          "weight": 3.464102,
+          "source_names": [
+            "apples",
+            "apples cut in small cubes",
+            "apples peeled and diced",
+            "diced apples",
+            "diced apples, not peeled",
+            "diced unpared tart apples",
+            "diced unpeeled apples",
+            "Medium Delicious Apples (cubed)",
+            "mellow apples",
+            "red apples",
+            "red apples (unpeeled, diced)",
+            "red apples, sliced"
+          ]
+        },
+        {
+          "name": "salad dressing (type unspecified)",
+          "recipe_count": 12,
+          "weight": 3.464102,
+          "source_names": [
+            "favorite dressing",
+            "good salad dressing",
+            "Salad Dressing",
+            "salad dressing"
+          ]
+        },
+        {
+          "name": "oranges",
+          "recipe_count": 9,
+          "weight": 3.0,
+          "source_names": [
+            "diced orange",
+            "orange",
+            "orange pieces",
+            "orange, cut in fine pieces",
+            "oranges",
+            "oranges peeled and sectioned",
+            "oranges, peeled and cut in small pieces",
+            "pared oranges cut up and drained"
+          ]
+        },
+        {
+          "name": "eggs",
+          "recipe_count": 8,
+          "weight": 2.828427,
+          "source_names": [
+            "beaten egg",
+            "egg",
+            "Egg, Beaten",
+            "egg, beaten",
+            "egg, slightly beaten",
+            "eggs"
+          ]
+        },
+        {
+          "name": "nuts (type unspecified)",
+          "recipe_count": 8,
+          "weight": 2.828427,
+          "source_names": [
+            "broken nut meats",
+            "broken nutmeats",
+            "chopped nuts",
+            "nuts",
+            "nuts (optional)",
+            "Royal Anne cherries, pitted and stuffed with cream cheese and nuts"
+          ]
+        },
+        {
+          "name": "lemon juice",
+          "recipe_count": 7,
+          "weight": 2.645751,
+          "source_names": [
+            "lemon juice",
+            "lemon, juiced",
+            "lemons, juiced"
+          ]
+        },
+        {
+          "name": "mayonnaise",
+          "recipe_count": 7,
+          "weight": 2.645751,
+          "source_names": [
+            "Mayonnaise",
+            "mayonnaise"
+          ]
+        },
+        {
+          "name": "egg yolks",
+          "recipe_count": 6,
+          "weight": 2.44949,
+          "source_names": [
+            "beaten egg yolks",
+            "egg yolks"
+          ]
+        },
+        {
+          "name": "mandarin oranges",
+          "recipe_count": 6,
+          "weight": 2.44949,
+          "source_names": [
+            "mandarin oranges",
+            "mandarin oranges (drained)",
+            "mandarin oranges, drained",
+            "mandarin oranges."
+          ]
+        },
+        {
+          "name": "salt",
+          "recipe_count": 6,
+          "weight": 2.44949,
+          "source_names": [
+            "salt"
+          ]
+        },
+        {
+          "name": "celery",
+          "recipe_count": 5,
+          "weight": 2.236068,
+          "source_names": [
+            "celery",
+            "chopped celery",
+            "diced celery"
+          ]
+        },
+        {
+          "name": "flour",
+          "recipe_count": 5,
+          "weight": 2.236068,
+          "source_names": [
+            "flour",
+            "flour (from 3 tbsp.)",
+            "Remaining brown sugar & flour"
+          ]
+        },
+        {
+          "name": "pineapple juice",
+          "recipe_count": 5,
+          "weight": 2.236068,
+          "source_names": [
+            "pineapple juice",
+            "pineapple syrup",
+            "pineapple syrup.",
+            "syrup from pineapple"
+          ]
+        },
+        {
+          "name": "white cherries",
+          "recipe_count": 5,
+          "weight": 2.236068,
+          "source_names": [
+            "drained pitted white cherries",
+            "pitted white cherries",
+            "white cherries",
+            "white cherries (drained and pitted)",
+            "white cherries, drained"
+          ]
+        },
+        {
+          "name": "butter",
+          "recipe_count": 4,
+          "weight": 2.0,
+          "source_names": [
+            "butter",
+            "softened butter"
+          ]
+        },
+        {
+          "name": "cranberries",
+          "recipe_count": 4,
+          "weight": 2.0,
+          "source_names": [
+            "cranberries",
+            "cranberries ground",
+            "cranberries put through chopper",
+            "raw cranberries - ground"
+          ]
+        },
+        {
+          "name": "cream cheese",
+          "recipe_count": 4,
+          "weight": 2.0,
+          "source_names": [
+            "cream cheese",
+            "Royal Anne cherries, pitted and stuffed with cream cheese and nuts"
+          ]
+        },
+        {
+          "name": "maraschino cherries",
+          "recipe_count": 4,
+          "weight": 2.0,
+          "source_names": [
+            "marachino cherries",
+            "maraschino cherries",
+            "maraschino cherries (diced)"
+          ]
+        },
+        {
+          "name": "sour cream",
+          "recipe_count": 4,
+          "weight": 2.0,
+          "source_names": [
+            "dairy sour cream",
+            "sour cream"
+          ]
+        },
+        {
+          "name": "vinegar",
+          "recipe_count": 4,
+          "weight": 2.0,
+          "source_names": [
+            "vinegar"
+          ]
+        },
+        {
+          "name": "white grapes",
+          "recipe_count": 4,
+          "weight": 2.0,
+          "source_names": [
+            "white grapes",
+            "white grapes, cut in half"
+          ]
+        },
+        {
+          "name": "almonds",
+          "recipe_count": 3,
+          "weight": 1.732051,
+          "source_names": [
+            "almond",
+            "almond meats",
+            "toasted almonds"
+          ]
+        },
+        {
+          "name": "cottage cheese",
+          "recipe_count": 3,
+          "weight": 1.732051,
+          "source_names": [
+            "Cottage Cheese",
+            "cottage cheese"
+          ]
+        },
+        {
+          "name": "fruit cocktail",
+          "recipe_count": 3,
+          "weight": 1.732051,
+          "source_names": [
+            "fruit cocktail (drained)",
+            "salad fruit (drained)"
+          ]
+        },
+        {
+          "name": "lettuce",
+          "recipe_count": 3,
+          "weight": 1.732051,
+          "source_names": [
+            "lettuce",
+            "Lettuce bed",
+            "lettuce leaf"
+          ]
+        },
+        {
+          "name": "peaches",
+          "recipe_count": 3,
+          "weight": 1.732051,
+          "source_names": [
+            "canned sliced cling peaches",
+            "peaches",
+            "well drained peach slices"
+          ]
+        },
+        {
+          "name": "pears",
+          "recipe_count": 3,
+          "weight": 1.732051,
+          "source_names": [
+            "diced pears",
+            "pear halves",
+            "pears"
+          ]
+        },
+        {
+          "name": "coconut",
+          "recipe_count": 2,
+          "weight": 1.414214,
+          "source_names": [
+            "cocoanut",
+            "coconut"
+          ]
+        },
+        {
+          "name": "cornstarch",
+          "recipe_count": 2,
+          "weight": 1.414214,
+          "source_names": [
+            "corn starch",
+            "Cornstarch"
+          ]
+        },
+        {
+          "name": "cranberry sauce",
+          "recipe_count": 2,
+          "weight": 1.414214,
+          "source_names": [
+            "cranberry sauce.",
+            "whole cranberry sauce"
+          ]
+        },
+        {
+          "name": "green grapes",
+          "recipe_count": 2,
+          "weight": 1.414214,
+          "source_names": [
+            "green grapes",
+            "green seedless grapes"
+          ]
+        },
+        {
+          "name": "powdered sugar",
+          "recipe_count": 2,
+          "weight": 1.414214,
+          "source_names": [
+            "powdered sugar",
+            "sifted confectioner sugar"
+          ]
+        },
+        {
+          "name": "strawberries",
+          "recipe_count": 2,
+          "weight": 1.414214,
+          "source_names": [
+            "quartered strawberries",
+            "strawberries, drained"
+          ]
+        },
+        {
+          "name": "walnuts",
+          "recipe_count": 2,
+          "weight": 1.414214,
+          "source_names": [
+            "chopped walnuts"
+          ]
+        },
+        {
+          "name": "water",
+          "recipe_count": 2,
+          "weight": 1.414214,
+          "source_names": [
+            "boiling water",
+            "water"
+          ]
+        },
+        {
+          "name": "almond extract",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "almond extract"
+          ]
+        },
+        {
+          "name": "apricots",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "apricots (drained and cut up)"
+          ]
+        },
+        {
+          "name": "black walnuts",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "chopped black walnuts"
+          ]
+        },
+        {
+          "name": "brown sugar",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "brown sugar (from 1/3 cup)",
+            "Remaining brown sugar & flour"
+          ]
+        },
+        {
+          "name": "cabbage",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "head cabbage, shredded"
+          ]
+        },
+        {
+          "name": "carrots",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "grated carrots"
+          ]
+        },
+        {
+          "name": "cheese whiz",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "cheese whiz"
+          ]
+        },
+        {
+          "name": "cherry pie filling",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "cherry pie filling"
+          ]
+        },
+        {
+          "name": "cinnamon",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "cinnamon"
+          ]
+        },
+        {
+          "name": "cloves",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "cloves"
+          ]
+        },
+        {
+          "name": "crushed shortbread cookies",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "crushed shortbread cookies"
+          ]
+        },
+        {
+          "name": "dream whip",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "whipped dream whip"
+          ]
+        },
+        {
+          "name": "frozen orange juice concentrate",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "frozen orange juice (undiluted)"
+          ]
+        },
+        {
+          "name": "lemon gelatin",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "lemon gelatin"
+          ]
+        },
+        {
+          "name": "mint",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "mint"
+          ]
+        },
+        {
+          "name": "mint-flavored apple jelly",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "Kraft mint-flavored apple jelly"
+          ]
+        },
+        {
+          "name": "nutmeg",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "nutmeg"
+          ]
+        },
+        {
+          "name": "orange tapioca pudding mix",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "orange tapioca pudding mix"
+          ]
+        },
+        {
+          "name": "peach gelatin",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "peach gelatin."
+          ]
+        },
+        {
+          "name": "peach pie filling",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "peach pie filling"
+          ]
+        },
+        {
+          "name": "peach syrup",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "peach syrup"
+          ]
+        },
+        {
+          "name": "peanuts",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "peanuts (ground)"
+          ]
+        },
+        {
+          "name": "pecans",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "pecan meats"
+          ]
+        },
+        {
+          "name": "plums",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "plums"
+          ]
+        },
+        {
+          "name": "raisins",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "raisins"
+          ]
+        },
+        {
+          "name": "red cherries",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "red cherries"
+          ]
+        },
+        {
+          "name": "red gelatin (flavor unspecified)",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "red jello"
+          ]
+        },
+        {
+          "name": "red grapes",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "red grapes (halved & seeded)"
+          ]
+        },
+        {
+          "name": "royal anne cherries",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "Royal Anne cherries, pitted and stuffed with cream cheese and nuts"
+          ]
+        },
+        {
+          "name": "strawberry juice",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "strawberry juice"
+          ]
+        },
+        {
+          "name": "sweetened condensed milk",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "sweetened cond. milk"
+          ]
+        },
+        {
+          "name": "swiss cheese",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "swiss cheese diced"
+          ]
+        },
+        {
+          "name": "tokay grapes",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "halved seeded tokay grapes"
+          ]
+        },
+        {
+          "name": "vanilla",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "vanilla"
+          ]
+        },
+        {
+          "name": "vanilla tapioca pudding mix",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "Vanilla tapioca pudding mix"
+          ]
+        },
+        {
+          "name": "whipped instant milk",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "whipped Carnation Instant"
+          ]
+        }
+      ]
+    },
+    "jello": {
+      "label": "Jello",
+      "recipe_count": 85,
+      "ingredient_count": 103,
+      "ingredients": [
+        {
+          "name": "water",
+          "recipe_count": 63,
+          "weight": 7.937254,
+          "source_names": [
+            "boiling water",
+            "boiling water over jello, stir well",
+            "cold water",
+            "cold water.",
+            "hot water",
+            "lemon gelatin, dissolved in 2 cups boiling water, and a little green coloring",
+            "plain gelatin combined with 2 Tbsp. cold water",
+            "Water",
+            "water"
+          ]
+        },
+        {
+          "name": "pineapple",
+          "recipe_count": 36,
+          "weight": 6.0,
+          "source_names": [
+            "crushed pineapple",
+            "crushed pineapple (drain)",
+            "crushed pineapple (drained)",
+            "crushed pineapple (save the juice)",
+            "crushed Pineapple (undrained)",
+            "crushed pineapple (undrained)",
+            "crushed pineapple drained",
+            "crushed pineapple undrained",
+            "crushed pineapple with juice",
+            "crushed, drained pineapple",
+            "Drained Crushed Pineapple",
+            "drained crushed pineapple",
+            "drained pineapple",
+            "pineapple (drained)",
+            "pineapple chunks",
+            "pineapple drained",
+            "pineapple tidbits",
+            "shredded pineapple",
+            "Sliced pineapple"
+          ]
+        },
+        {
+          "name": "lemon gelatin",
+          "recipe_count": 27,
+          "weight": 5.196152,
+          "source_names": [
+            "lemon gelatin",
+            "lemon gelatin, dissolved in 2 cups boiling water, and a little green coloring",
+            "Lemon Jello",
+            "Lemon jello",
+            "lemon Jello",
+            "lemon jello",
+            "lemon jello.",
+            "lemon-flavored Jello"
+          ]
+        },
+        {
+          "name": "sugar",
+          "recipe_count": 24,
+          "weight": 4.898979,
+          "source_names": [
+            "Sugar",
+            "sugar",
+            "sugar, same amount as you have ground cranberries."
+          ]
+        },
+        {
+          "name": "celery",
+          "recipe_count": 22,
+          "weight": 4.690416,
+          "source_names": [
+            "celery",
+            "celery (cut up)",
+            "celery , cut fine",
+            "celery diced",
+            "chopped celery",
+            "cup celery, chopped",
+            "diced celery",
+            "finely chopped celery",
+            "finely cut celery",
+            "finely diced celery",
+            "minced celery"
+          ]
+        },
+        {
+          "name": "salt",
+          "recipe_count": 21,
+          "weight": 4.582576,
+          "source_names": [
+            "salt"
+          ]
+        },
+        {
+          "name": "cream",
+          "recipe_count": 20,
+          "weight": 4.472136,
+          "source_names": [
+            "cream",
+            "cream , whipped",
+            "cream whipped",
+            "cream, whipped",
+            "heavy cream",
+            "heavy cream whipped",
+            "heavy cream, whipped",
+            "thick cream",
+            "Whipped Cream",
+            "whipped cream",
+            "whipping cream",
+            "Whipping Cream - If desired",
+            "whipping cream, whipped"
+          ]
+        },
+        {
+          "name": "lime gelatin",
+          "recipe_count": 18,
+          "weight": 4.242641,
+          "source_names": [
+            "lime gelatin",
+            "Lime Jello",
+            "lime jello"
+          ]
+        },
+        {
+          "name": "marshmallows",
+          "recipe_count": 17,
+          "weight": 4.123106,
+          "source_names": [
+            "Marshmallows",
+            "marshmallows",
+            "marshmallows cut up",
+            "Miniature marshmallows",
+            "miniature marshmallows",
+            "small marshmellows"
+          ]
+        },
+        {
+          "name": "cream cheese",
+          "recipe_count": 13,
+          "weight": 3.605551,
+          "source_names": [
+            "Cream Cheese",
+            "cream cheese",
+            "cream cheese, formed into small balls",
+            "cream cheese, soft"
+          ]
+        },
+        {
+          "name": "lemon juice",
+          "recipe_count": 13,
+          "weight": 3.605551,
+          "source_names": [
+            "lemon juice"
+          ]
+        },
+        {
+          "name": "bananas",
+          "recipe_count": 12,
+          "weight": 3.464102,
+          "source_names": [
+            "banana",
+            "bananas",
+            "bananas (cut very fine)",
+            "bananas (optional)",
+            "bananas (well mashed)",
+            "bananas diced",
+            "bananas sliced",
+            "bananas, mashed",
+            "bananas, sliced",
+            "sliced banana"
+          ]
+        },
+        {
+          "name": "nuts (type unspecified)",
+          "recipe_count": 12,
+          "weight": 3.464102,
+          "source_names": [
+            "chopped nuts",
+            "chopped nuts (optional)",
+            "nut meats",
+            "nut meats, chopped",
+            "nuts"
+          ]
+        },
+        {
+          "name": "orange gelatin",
+          "recipe_count": 12,
+          "weight": 3.464102,
+          "source_names": [
+            "orange gelatin",
+            "orange gelatine",
+            "orange jello"
+          ]
+        },
+        {
+          "name": "unflavored gelatin",
+          "recipe_count": 12,
+          "weight": 3.464102,
+          "source_names": [
+            "gelatine",
+            "Knox gelatin",
+            "plain gelatin combined with 2 Tbsp. cold water",
+            "unflavored gelatin"
+          ]
+        },
+        {
+          "name": "apples",
+          "recipe_count": 11,
+          "weight": 3.316625,
+          "source_names": [
+            "apples",
+            "apples peeled and diced",
+            "chopped apples",
+            "finely cut apples",
+            "finely-chopped tart apples",
+            "raw apples diced",
+            "raw apples, chopped",
+            "red apples (unpeeled and diced)",
+            "tart apple, peeled and chopped",
+            "unpeeled, cored apple"
+          ]
+        },
+        {
+          "name": "cherry gelatin",
+          "recipe_count": 11,
+          "weight": 3.316625,
+          "source_names": [
+            "Cherry Jello",
+            "cherry Jello",
+            "cherry jello"
+          ]
+        },
+        {
+          "name": "cranberries",
+          "recipe_count": 11,
+          "weight": 3.316625,
+          "source_names": [
+            "cranberries",
+            "ground cranberries",
+            "raw cranberries",
+            "raw cranberries, chopped",
+            "whole cranberries"
+          ]
+        },
+        {
+          "name": "mayonnaise",
+          "recipe_count": 11,
+          "weight": 3.316625,
+          "source_names": [
+            "Mayonnaise",
+            "mayonnaise"
+          ]
+        },
+        {
+          "name": "vinegar",
+          "recipe_count": 11,
+          "weight": 3.316625,
+          "source_names": [
+            "mild vinegar",
+            "vinegar"
+          ]
+        },
+        {
+          "name": "raspberry gelatin",
+          "recipe_count": 9,
+          "weight": 3.0,
+          "source_names": [
+            "rasberry jello",
+            "Raspberry Gelatin",
+            "Raspberry Jello",
+            "raspberry jello",
+            "red rasberry jello - dissolved in 1 cup hot water"
+          ]
+        },
+        {
+          "name": "onions",
+          "recipe_count": 7,
+          "weight": 2.645751,
+          "source_names": [
+            "chopped onion",
+            "finely chopped onion",
+            "grated onion",
+            "onion, chopped"
+          ]
+        },
+        {
+          "name": "pineapple juice",
+          "recipe_count": 7,
+          "weight": 2.645751,
+          "source_names": [
+            "juice from pineapple",
+            "Pineapple Juice",
+            "pineapple juice",
+            "pineapple syrup,"
+          ]
+        },
+        {
+          "name": "sour cream",
+          "recipe_count": 7,
+          "weight": 2.645751,
+          "source_names": [
+            "Commercial Sour Cream",
+            "cult. sour cream",
+            "dairy sour cream",
+            "sour cream"
+          ]
+        },
+        {
+          "name": "mandarin oranges",
+          "recipe_count": 6,
+          "weight": 2.44949,
+          "source_names": [
+            "drained mandarin oranges",
+            "Mandarin orange slices",
+            "mandarin oranges",
+            "mandarin oranges (drain)",
+            "mandarin oranges(drained)"
+          ]
+        },
+        {
+          "name": "salad dressing (type unspecified)",
+          "recipe_count": 6,
+          "weight": 2.44949,
+          "source_names": [
+            "salad dressing"
+          ]
+        },
+        {
+          "name": "stuffed olives",
+          "recipe_count": 6,
+          "weight": 2.44949,
+          "source_names": [
+            "finely-chopped stuffed olives",
+            "sliced stuffed olives",
+            "stuffed olives",
+            "stuffed olives, cut up",
+            "stuffed olvies. (sliced)"
+          ]
+        },
+        {
+          "name": "cabbage",
+          "recipe_count": 5,
+          "weight": 2.236068,
+          "source_names": [
+            "cabbage",
+            "cup cabbage, shredded",
+            "finely shredded cabbage",
+            "finely-chopped cabbage"
+          ]
+        },
+        {
+          "name": "cottage cheese",
+          "recipe_count": 5,
+          "weight": 2.236068,
+          "source_names": [
+            "cottage cheese",
+            "Cottage Cheese (cream cheese can be substituted)",
+            "creamed cottage cheese"
+          ]
+        },
+        {
+          "name": "cranberry sauce",
+          "recipe_count": 5,
+          "weight": 2.236068,
+          "source_names": [
+            "jellied cranberry sauce",
+            "Whole Cranberry Sauce",
+            "whole cranberry sauce"
+          ]
+        },
+        {
+          "name": "cucumbers",
+          "recipe_count": 5,
+          "weight": 2.236068,
+          "source_names": [
+            "chopped cucumber",
+            "cucumber (unpeeled and grated)",
+            "cucumber finely grated finely",
+            "cucumbers, grated with skins on to make 2 cupfuls. Add little water to make up difference, if necessary.",
+            "minced pared cucumber"
+          ]
+        },
+        {
+          "name": "eggs",
+          "recipe_count": 5,
+          "weight": 2.236068,
+          "source_names": [
+            "egg",
+            "egg beaten",
+            "egg, beaten",
+            "slightly beaten egg"
+          ]
+        },
+        {
+          "name": "flour",
+          "recipe_count": 5,
+          "weight": 2.236068,
+          "source_names": [
+            "flour"
+          ]
+        },
+        {
+          "name": "oranges",
+          "recipe_count": 5,
+          "weight": 2.236068,
+          "source_names": [
+            "orange segments",
+            "oranges"
+          ]
+        },
+        {
+          "name": "walnuts",
+          "recipe_count": 5,
+          "weight": 2.236068,
+          "source_names": [
+            "chopped walnuts",
+            "English walnuts",
+            "walnut meats",
+            "walnuts (cut very fine)",
+            "walnuts coarsely chopped"
+          ]
+        },
+        {
+          "name": "bing cherries",
+          "recipe_count": 4,
+          "weight": 2.0,
+          "source_names": [
+            "bing cherries",
+            "bing cherries (drained)",
+            "Bing Cherries, drained",
+            "chopped Bing cherries"
+          ]
+        },
+        {
+          "name": "butter",
+          "recipe_count": 4,
+          "weight": 2.0,
+          "source_names": [
+            "butter"
+          ]
+        },
+        {
+          "name": "green bell peppers",
+          "recipe_count": 4,
+          "weight": 2.0,
+          "source_names": [
+            "chopped green pepper",
+            "diced green pepper"
+          ]
+        },
+        {
+          "name": "orange sherbet",
+          "recipe_count": 4,
+          "weight": 2.0,
+          "source_names": [
+            "orange sherbert",
+            "orange sherbet"
+          ]
+        },
+        {
+          "name": "pecans",
+          "recipe_count": 4,
+          "weight": 2.0,
+          "source_names": [
+            "chopped pecans",
+            "pecans chopped",
+            "salted pecans, chopped"
+          ]
+        },
+        {
+          "name": "pimentos",
+          "recipe_count": 4,
+          "weight": 2.0,
+          "source_names": [
+            "chopped pimento",
+            "chopped pimiento",
+            "pimento",
+            "pimentoes"
+          ]
+        },
+        {
+          "name": "strawberries",
+          "recipe_count": 4,
+          "weight": 2.0,
+          "source_names": [
+            "fresh strawberries",
+            "frozen strawberries",
+            "frozen strawberries, thawed and strained (save juice)"
+          ]
+        },
+        {
+          "name": "strawberry gelatin",
+          "recipe_count": 4,
+          "weight": 2.0,
+          "source_names": [
+            "strawberry gelatin",
+            "Strawberry Jello",
+            "strawberry jello"
+          ]
+        },
+        {
+          "name": "applesauce",
+          "recipe_count": 3,
+          "weight": 1.732051,
+          "source_names": [
+            "apple sauce",
+            "Applesauce",
+            "unsweetened applesauce"
+          ]
+        },
+        {
+          "name": "apricots",
+          "recipe_count": 3,
+          "weight": 1.732051,
+          "source_names": [
+            "apricot halves",
+            "apricots (mashed and drained)",
+            "apricots, drained & snipped"
+          ]
+        },
+        {
+          "name": "cheese (type unspecified)",
+          "recipe_count": 3,
+          "weight": 1.732051,
+          "source_names": [
+            "grated cheese",
+            "shredded cheese"
+          ]
+        },
+        {
+          "name": "orange juice",
+          "recipe_count": 3,
+          "weight": 1.732051,
+          "source_names": [
+            "orange juice"
+          ]
+        },
+        {
+          "name": "raspberries",
+          "recipe_count": 3,
+          "weight": 1.732051,
+          "source_names": [
+            "frozen raspberries",
+            "Frozen Raspberries-thawed",
+            "frozen red raspberries, drained"
+          ]
+        },
+        {
+          "name": "canned fruit juice",
+          "recipe_count": 2,
+          "weight": 1.414214,
+          "source_names": [
+            "juice from canned fruit",
+            "reserved fruit liquid"
+          ]
+        },
+        {
+          "name": "carrots",
+          "recipe_count": 2,
+          "weight": 1.414214,
+          "source_names": [
+            "cup carrots, chopped",
+            "grated raw carrots"
+          ]
+        },
+        {
+          "name": "cayenne pepper",
+          "recipe_count": 2,
+          "weight": 1.414214,
+          "source_names": [
+            "cayenne pepper",
+            "cayenne pepper .."
+          ]
+        },
+        {
+          "name": "cheddar cheese",
+          "recipe_count": 2,
+          "weight": 1.414214,
+          "source_names": [
+            "grated cheddar cheese"
+          ]
+        },
+        {
+          "name": "cooked shrimp",
+          "recipe_count": 2,
+          "weight": 1.414214,
+          "source_names": [
+            "chopped cooked shrimp",
+            "diced cooked shrimp"
+          ]
+        },
+        {
+          "name": "cool whip",
+          "recipe_count": 2,
+          "weight": 1.414214,
+          "source_names": [
+            "Cool Whip",
+            "cool whip"
+          ]
+        },
+        {
+          "name": "dream whip",
+          "recipe_count": 2,
+          "weight": 1.414214,
+          "source_names": [
+            "Dream Whip"
+          ]
+        },
+        {
+          "name": "ginger ale",
+          "recipe_count": 2,
+          "weight": 1.414214,
+          "source_names": [
+            "ginger ale"
+          ]
+        },
+        {
+          "name": "grapefruit",
+          "recipe_count": 2,
+          "weight": 1.414214,
+          "source_names": [
+            "diced grapefruit sections",
+            "grapefruit sections"
+          ]
+        },
+        {
+          "name": "green food coloring",
+          "recipe_count": 2,
+          "weight": 1.414214,
+          "source_names": [
+            "green food coloring",
+            "lemon gelatin, dissolved in 2 cups boiling water, and a little green coloring"
+          ]
+        },
+        {
+          "name": "hard-boiled eggs",
+          "recipe_count": 2,
+          "weight": 1.414214,
+          "source_names": [
+            "hard boiled eggs, chopped",
+            "hard cooked eggs, chopped"
+          ]
+        },
+        {
+          "name": "horseradish",
+          "recipe_count": 2,
+          "weight": 1.414214,
+          "source_names": [
+            "grated horseradish",
+            "horseradish"
+          ]
+        },
+        {
+          "name": "lemon pie filling",
+          "recipe_count": 2,
+          "weight": 1.414214,
+          "source_names": [
+            "lemon pie filling"
+          ]
+        },
+        {
+          "name": "maraschino cherries",
+          "recipe_count": 2,
+          "weight": 1.414214,
+          "source_names": [
+            "Maraschino cherries",
+            "maraschino cherries"
+          ]
+        },
+        {
+          "name": "pears",
+          "recipe_count": 2,
+          "weight": 1.414214,
+          "source_names": [
+            "diced pears",
+            "Pear Halves (Mashed)"
+          ]
+        },
+        {
+          "name": "red hots candy",
+          "recipe_count": 2,
+          "weight": 1.414214,
+          "source_names": [
+            "candy red hots",
+            "red hots"
+          ]
+        },
+        {
+          "name": "vanilla ice cream",
+          "recipe_count": 2,
+          "weight": 1.414214,
+          "source_names": [
+            "vanilla ice cream"
+          ]
+        },
+        {
+          "name": "white grapes",
+          "recipe_count": 2,
+          "weight": 1.414214,
+          "source_names": [
+            "canned white grapes (drained)",
+            "white seedless grapes"
+          ]
+        },
+        {
+          "name": "7 up soda",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "7 Up soda"
+          ]
+        },
+        {
+          "name": "almonds",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "toasted slivered almonds"
+          ]
+        },
+        {
+          "name": "american cheese",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "grated American cheese"
+          ]
+        },
+        {
+          "name": "apricot nectar",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "apricot nectar"
+          ]
+        },
+        {
+          "name": "beau monde herbs",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "Beau Monde Herbs"
+          ]
+        },
+        {
+          "name": "beets",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "diced beets"
+          ]
+        },
+        {
+          "name": "black cherry gelatin",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "Black Cherry Gelatin"
+          ]
+        },
+        {
+          "name": "blueberries",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "blueberries"
+          ]
+        },
+        {
+          "name": "cherry juice",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "liquid from cherries"
+          ]
+        },
+        {
+          "name": "cherry pie filling",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "cherry pie filling"
+          ]
+        },
+        {
+          "name": "corned beef",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "corned beef cubed"
+          ]
+        },
+        {
+          "name": "cornstarch",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "corn starch"
+          ]
+        },
+        {
+          "name": "dry mustard",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "dry mustard"
+          ]
+        },
+        {
+          "name": "frozen orange juice concentrate",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "frozen orange juice, thawed but not diluted"
+          ]
+        },
+        {
+          "name": "green olives",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "cup green olives, sliced"
+          ]
+        },
+        {
+          "name": "green onions",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "minced green onion"
+          ]
+        },
+        {
+          "name": "lemon with rind",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "lemon with rind"
+          ]
+        },
+        {
+          "name": "lettuce",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "Lettuce"
+          ]
+        },
+        {
+          "name": "melon",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "frozen melon balls, thawed and strained (save juice)"
+          ]
+        },
+        {
+          "name": "milk",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "Milk"
+          ]
+        },
+        {
+          "name": "miracle whip",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "miracle whip"
+          ]
+        },
+        {
+          "name": "mountain dew soda",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "Mountain Dew soda"
+          ]
+        },
+        {
+          "name": "onion flavoring",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "onion flavoring"
+          ]
+        },
+        {
+          "name": "orange cranberry relish",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "orange cranberry relish"
+          ]
+        },
+        {
+          "name": "orange rind",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "orange rind"
+          ]
+        },
+        {
+          "name": "paprika",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "paprika"
+          ]
+        },
+        {
+          "name": "peaches",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "drained canned peaches"
+          ]
+        },
+        {
+          "name": "pear juice",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "Pear Juice (Hot)"
+          ]
+        },
+        {
+          "name": "pickled beets",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "diced pickled beets"
+          ]
+        },
+        {
+          "name": "prunes",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "black prunes"
+          ]
+        },
+        {
+          "name": "red gelatin (flavor unspecified)",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "red jello"
+          ]
+        },
+        {
+          "name": "ripe olives",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "ripe olives"
+          ]
+        },
+        {
+          "name": "rose' wine",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "Rose' wine"
+          ]
+        },
+        {
+          "name": "thousand island dressing",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "Kraft Thousand Island Dressing"
+          ]
+        },
+        {
+          "name": "tomato soup",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "tomato soup"
+          ]
+        },
+        {
+          "name": "tuna",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "tuna, drained & flaked"
+          ]
+        },
+        {
+          "name": "worcestershire sauce",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "worchester sauce"
+          ]
+        }
+      ]
+    },
+    "vegetable": {
+      "label": "Vegetable",
+      "recipe_count": 37,
+      "ingredient_count": 78,
+      "ingredients": [
+        {
+          "name": "salt",
+          "recipe_count": 21,
+          "weight": 4.582576,
+          "source_names": [
+            "salt",
+            "salt and celery seed to taste",
+            "Salt and pepper",
+            "salt to taste"
+          ]
+        },
+        {
+          "name": "sugar",
+          "recipe_count": 17,
+          "weight": 4.123106,
+          "source_names": [
+            "Sugar",
+            "sugar",
+            "sugar to taste",
+            "sugar.",
+            "White sugar"
+          ]
+        },
+        {
+          "name": "celery",
+          "recipe_count": 15,
+          "weight": 3.872983,
+          "source_names": [
+            "celery",
+            "celery diced",
+            "celery strips",
+            "celery, chopped",
+            "chopped celery",
+            "Cup Celery - chopped",
+            "diced celery",
+            "sliced celery"
+          ]
+        },
+        {
+          "name": "cabbage",
+          "recipe_count": 13,
+          "weight": 3.605551,
+          "source_names": [
+            "cabbage",
+            "cabbage (cut fine)",
+            "cabbage, shredded",
+            "cabbage, shredded fine",
+            "crisp shredded cabbage",
+            "medium head cabbage",
+            "Shredded cabbage",
+            "shredded cabbage",
+            "shredded crisp cabbage",
+            "shredded new cabbage"
+          ]
+        },
+        {
+          "name": "vinegar",
+          "recipe_count": 13,
+          "weight": 3.605551,
+          "source_names": [
+            "Vinegar",
+            "vinegar"
+          ]
+        },
+        {
+          "name": "onions",
+          "recipe_count": 12,
+          "weight": 3.464102,
+          "source_names": [
+            "chopped onion",
+            "diced onions (optional)",
+            "grated onion",
+            "onion",
+            "Onion - chopped",
+            "onion strips",
+            "onion, cut in rings",
+            "onions",
+            "onions to taste",
+            "onions, diced"
+          ]
+        },
+        {
+          "name": "black pepper",
+          "recipe_count": 10,
+          "weight": 3.162278,
+          "source_names": [
+            "pepper",
+            "Salt and pepper"
+          ]
+        },
+        {
+          "name": "green bell peppers",
+          "recipe_count": 10,
+          "weight": 3.162278,
+          "source_names": [
+            "chopped green pepper",
+            "diced green pepper",
+            "diced green peppers",
+            "finely chopped green pepper",
+            "green pepper",
+            "Green Pepper - chopped",
+            "Green pepper, diced",
+            "green peppers, chopped"
+          ]
+        },
+        {
+          "name": "salad oil",
+          "recipe_count": 9,
+          "weight": 3.0,
+          "source_names": [
+            "salad oil",
+            "salad oil (or less)"
+          ]
+        },
+        {
+          "name": "mayonnaise",
+          "recipe_count": 8,
+          "weight": 2.828427,
+          "source_names": [
+            "mayonnaise",
+            "Mayonnaise dressing"
+          ]
+        },
+        {
+          "name": "potatoes",
+          "recipe_count": 7,
+          "weight": 2.645751,
+          "source_names": [
+            "diced boiled potatoes",
+            "diced cooked potatoes",
+            "potatoes",
+            "potatoes cooked in jackets, peeled and sliced to make 6 cups",
+            "potatoes in their jackets",
+            "potatoes, cooked and diced",
+            "potatoes, cooked in jackets"
+          ]
+        },
+        {
+          "name": "water",
+          "recipe_count": 7,
+          "weight": 2.645751,
+          "source_names": [
+            "cold water",
+            "Water",
+            "water"
+          ]
+        },
+        {
+          "name": "carrots",
+          "recipe_count": 6,
+          "weight": 2.44949,
+          "source_names": [
+            "carrot (optional)",
+            "carrot chopped fine",
+            "finely chopped carrots",
+            "shredded carrots",
+            "sliced carrots",
+            "small carrots"
+          ]
+        },
+        {
+          "name": "hard-boiled eggs",
+          "recipe_count": 6,
+          "weight": 2.44949,
+          "source_names": [
+            "chopped hard boiled eggs",
+            "eggs hard boiled and diced",
+            "hard boiled eggs",
+            "hard cooked eggs",
+            "Hard cooked eggs (quartered)",
+            "hard cooked eggs, sliced"
+          ]
+        },
+        {
+          "name": "lettuce",
+          "recipe_count": 6,
+          "weight": 2.44949,
+          "source_names": [
+            "broken lettuce and romaine",
+            "Leaf Lettuce",
+            "Lettuce",
+            "lettuce"
+          ]
+        },
+        {
+          "name": "cider vinegar",
+          "recipe_count": 5,
+          "weight": 2.236068,
+          "source_names": [
+            "apple cider vinegar",
+            "cider vinegar"
+          ]
+        },
+        {
+          "name": "eggs",
+          "recipe_count": 5,
+          "weight": 2.236068,
+          "source_names": [
+            "beaten egg",
+            "egg",
+            "egg beaten",
+            "eggs"
+          ]
+        },
+        {
+          "name": "pimentos",
+          "recipe_count": 5,
+          "weight": 2.236068,
+          "source_names": [
+            "chopped pimento",
+            "Pimento - chopped",
+            "pimento strips",
+            "pimentoes",
+            "pimentos (chopped)"
+          ]
+        },
+        {
+          "name": "celery seed",
+          "recipe_count": 4,
+          "weight": 2.0,
+          "source_names": [
+            "celery seed",
+            "salt and celery seed to taste"
+          ]
+        },
+        {
+          "name": "green onions",
+          "recipe_count": 4,
+          "weight": 2.0,
+          "source_names": [
+            "chopped green onions",
+            "Green onions - sliced",
+            "sliced green onion",
+            "sliced green onion and tops"
+          ]
+        },
+        {
+          "name": "salad dressing (type unspecified)",
+          "recipe_count": 4,
+          "weight": 2.0,
+          "source_names": [
+            "dressing to moisten",
+            "salad dressing"
+          ]
+        },
+        {
+          "name": "sour cream",
+          "recipe_count": 4,
+          "weight": 2.0,
+          "source_names": [
+            "cult. sour cream",
+            "dairy sour cream",
+            "sour cream"
+          ]
+        },
+        {
+          "name": "bacon",
+          "recipe_count": 3,
+          "weight": 1.732051,
+          "source_names": [
+            "Bacon",
+            "bacon cut in 1 in. pieces",
+            "chopped bacon"
+          ]
+        },
+        {
+          "name": "beets",
+          "recipe_count": 3,
+          "weight": 1.732051,
+          "source_names": [
+            "beets and red cabbage. Both cooked and chopped.",
+            "Diced beets",
+            "drained shoe string beets"
+          ]
+        },
+        {
+          "name": "green beans",
+          "recipe_count": 3,
+          "weight": 1.732051,
+          "source_names": [
+            "cut green beans",
+            "Green Beans",
+            "green beans (with brown pods)"
+          ]
+        },
+        {
+          "name": "sweet pickles",
+          "recipe_count": 3,
+          "weight": 1.732051,
+          "source_names": [
+            "chopped sweet pickles",
+            "sliced small sweet pickles",
+            "sweet pickles"
+          ]
+        },
+        {
+          "name": "tomatoes",
+          "recipe_count": 3,
+          "weight": 1.732051,
+          "source_names": [
+            "tomato wedges",
+            "Tomatoes",
+            "tomatoes"
+          ]
+        },
+        {
+          "name": "worcestershire sauce",
+          "recipe_count": 3,
+          "weight": 1.732051,
+          "source_names": [
+            "Worcestershire sauce",
+            "worcestershire sauce",
+            "worchester sauce"
+          ]
+        },
+        {
+          "name": "apples",
+          "recipe_count": 2,
+          "weight": 1.414214,
+          "source_names": [
+            "diced apple",
+            "diced apples"
+          ]
+        },
+        {
+          "name": "bell peppers (color unspecified)",
+          "recipe_count": 2,
+          "weight": 1.414214,
+          "source_names": [
+            "Peppers",
+            "sweet pepper (red or green)"
+          ]
+        },
+        {
+          "name": "cottage cheese",
+          "recipe_count": 2,
+          "weight": 1.414214,
+          "source_names": [
+            "Cottage cheese",
+            "large curd cbttage cheese (drained)"
+          ]
+        },
+        {
+          "name": "cucumbers",
+          "recipe_count": 2,
+          "weight": 1.414214,
+          "source_names": [
+            "diced cucumbers",
+            "diced pared cucumber"
+          ]
+        },
+        {
+          "name": "dry mustard",
+          "recipe_count": 2,
+          "weight": 1.414214,
+          "source_names": [
+            "dry mustard"
+          ]
+        },
+        {
+          "name": "garlic",
+          "recipe_count": 2,
+          "weight": 1.414214,
+          "source_names": [
+            "garlic",
+            "garlic clove"
+          ]
+        },
+        {
+          "name": "kidney beans",
+          "recipe_count": 2,
+          "weight": 1.414214,
+          "source_names": [
+            "Kidney Beans",
+            "kidney beans"
+          ]
+        },
+        {
+          "name": "lemon juice",
+          "recipe_count": 2,
+          "weight": 1.414214,
+          "source_names": [
+            "lemon juice"
+          ]
+        },
+        {
+          "name": "macaroni",
+          "recipe_count": 2,
+          "weight": 1.414214,
+          "source_names": [
+            "cooked macaroni",
+            "uncooked elbow macaroni"
+          ]
+        },
+        {
+          "name": "mustard",
+          "recipe_count": 2,
+          "weight": 1.414214,
+          "source_names": [
+            "mustard",
+            "prepared mustard"
+          ]
+        },
+        {
+          "name": "nuts (type unspecified)",
+          "recipe_count": 2,
+          "weight": 1.414214,
+          "source_names": [
+            "chopped nuts"
+          ]
+        },
+        {
+          "name": "paprika",
+          "recipe_count": 2,
+          "weight": 1.414214,
+          "source_names": [
+            "paprika"
+          ]
+        },
+        {
+          "name": "parmesan cheese",
+          "recipe_count": 2,
+          "weight": 1.414214,
+          "source_names": [
+            "grated Parmesan cheese",
+            "parmesan cheese"
+          ]
+        },
+        {
+          "name": "peanuts",
+          "recipe_count": 2,
+          "weight": 1.414214,
+          "source_names": [
+            "chopped salted peanuts",
+            "salted peanuts"
+          ]
+        },
+        {
+          "name": "peas",
+          "recipe_count": 2,
+          "weight": 1.414214,
+          "source_names": [
+            "peas"
+          ]
+        },
+        {
+          "name": "red bell peppers",
+          "recipe_count": 2,
+          "weight": 1.414214,
+          "source_names": [
+            "red pepper",
+            "red peppers, chopped"
+          ]
+        },
+        {
+          "name": "salad vinegar",
+          "recipe_count": 2,
+          "weight": 1.414214,
+          "source_names": [
+            "Salad Vinegar",
+            "salad vinegar"
+          ]
+        },
+        {
+          "name": "sauerkraut",
+          "recipe_count": 2,
+          "weight": 1.414214,
+          "source_names": [
+            "kraut drained",
+            "Sauerkraut - drain well, squeeze with hands"
+          ]
+        },
+        {
+          "name": "sweet pickle relish",
+          "recipe_count": 2,
+          "weight": 1.414214,
+          "source_names": [
+            "sweet pickle relish",
+            "Sweet Relish"
+          ]
+        },
+        {
+          "name": "wax beans",
+          "recipe_count": 2,
+          "weight": 1.414214,
+          "source_names": [
+            "wax beans",
+            "Yellow Beans"
+          ]
+        },
+        {
+          "name": "american cheese",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "American cheese, cut in squares"
+          ]
+        },
+        {
+          "name": "anchovy fillets",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "anchovy fillets"
+          ]
+        },
+        {
+          "name": "butter",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "butter"
+          ]
+        },
+        {
+          "name": "cooking oil",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "cooking oil"
+          ]
+        },
+        {
+          "name": "corn oil",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "corn oil"
+          ]
+        },
+        {
+          "name": "cream",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "cream"
+          ]
+        },
+        {
+          "name": "croutons",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "croutons"
+          ]
+        },
+        {
+          "name": "dill pickles",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "sliced small dill pickles"
+          ]
+        },
+        {
+          "name": "dill seed",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "dill seed"
+          ]
+        },
+        {
+          "name": "flour",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "flour"
+          ]
+        },
+        {
+          "name": "french dressing",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "French dressing"
+          ]
+        },
+        {
+          "name": "fried onions",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "fried onions"
+          ]
+        },
+        {
+          "name": "horseradish",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "horseradish"
+          ]
+        },
+        {
+          "name": "horseradish mustard",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "horseradish mustard"
+          ]
+        },
+        {
+          "name": "italian dressing",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "Italian dressing"
+          ]
+        },
+        {
+          "name": "marshmallows",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "miniature marshmallows"
+          ]
+        },
+        {
+          "name": "melba toast",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "Devonshire Plain Melba toast, broken"
+          ]
+        },
+        {
+          "name": "mustard seed",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "mustard seed"
+          ]
+        },
+        {
+          "name": "okra",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "okra"
+          ]
+        },
+        {
+          "name": "pineapple",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "pineapple tidbits"
+          ]
+        },
+        {
+          "name": "red cabbage",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "beets and red cabbage. Both cooked and chopped."
+          ]
+        },
+        {
+          "name": "romaine lettuce",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "broken lettuce and romaine"
+          ]
+        },
+        {
+          "name": "spinach",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "fresh spinach (stems removed)"
+          ]
+        },
+        {
+          "name": "sweet pickle vinegar",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "sweet pickle vinegar"
+          ]
+        },
+        {
+          "name": "tabasco sauce",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "tabasco sauce"
+          ]
+        },
+        {
+          "name": "tomato paste",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "tomato paste"
+          ]
+        },
+        {
+          "name": "turnips",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "turnips cut in strips"
+          ]
+        },
+        {
+          "name": "unflavored gelatin",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "Knox gelatin"
+          ]
+        },
+        {
+          "name": "vinegar and oil dressing",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "vinegar and oil dressing"
+          ]
+        },
+        {
+          "name": "white vinegar",
+          "recipe_count": 1,
+          "weight": 1.0,
+          "source_names": [
+            "white vinegar"
+          ]
+        }
+      ]
+    }
+  },
+  "needs_review": [
+    {
+      "recipe_id": "salad_002",
+      "categories": [
+        "jello"
+      ],
+      "source_name": "mixed pineapple and apricot juice",
+      "reason": "Ambiguous or incomplete transcription"
+    },
+    {
+      "recipe_id": "salad_014",
+      "categories": [
+        "jello"
+      ],
+      "source_name": "Fruit to taste",
+      "reason": "Ambiguous or incomplete transcription"
+    },
+    {
+      "recipe_id": "salad_018",
+      "categories": [
+        "jello"
+      ],
+      "source_name": "jello (lemon or pineapple)",
+      "reason": "Alternative ingredients; no single ingredient selected"
+    },
+    {
+      "recipe_id": "salad_026",
+      "categories": [
+        "jello"
+      ],
+      "source_name": "cream cheese or 1 cup cottage cheese",
+      "reason": "Alternative ingredients; no single ingredient selected"
+    },
+    {
+      "recipe_id": "salad_027",
+      "categories": [
+        "jello"
+      ],
+      "source_name": "heavy cream or 2 oz. pkg. dessert topping mix whipped",
+      "reason": "Alternative ingredients; no single ingredient selected"
+    },
+    {
+      "recipe_id": "salad_030",
+      "categories": [
+        "jello"
+      ],
+      "source_name": "gingerale or 7 up",
+      "reason": "Alternative ingredients; no single ingredient selected"
+    },
+    {
+      "recipe_id": "salad_035",
+      "categories": [
+        "vegetable"
+      ],
+      "source_name": "green pepper stems",
+      "reason": "Ambiguous or incomplete transcription"
+    },
+    {
+      "recipe_id": "salad_039",
+      "categories": [
+        "vegetable"
+      ],
+      "source_name": "green or red pepper strips",
+      "reason": "Alternative ingredients; no single ingredient selected"
+    },
+    {
+      "recipe_id": "salad_044",
+      "categories": [
+        "vegetable"
+      ],
+      "source_name": "red mangol diced (for color)",
+      "reason": "Ambiguous or incomplete transcription"
+    },
+    {
+      "recipe_id": "salad_044",
+      "categories": [
+        "vegetable"
+      ],
+      "source_name": "green mangol diced",
+      "reason": "Ambiguous or incomplete transcription"
+    },
+    {
+      "recipe_id": "salad_045",
+      "categories": [
+        "jello"
+      ],
+      "source_name": "lime or lemon jello",
+      "reason": "Alternative ingredients; no single ingredient selected"
+    },
+    {
+      "recipe_id": "salad_045",
+      "categories": [
+        "jello"
+      ],
+      "source_name": "vinegar or lemon juice",
+      "reason": "Alternative ingredients; no single ingredient selected"
+    },
+    {
+      "recipe_id": "salad_057",
+      "categories": [
+        "vegetable"
+      ],
+      "source_name": "clear French or italian dressing",
+      "reason": "Alternative ingredients; no single ingredient selected"
+    },
+    {
+      "recipe_id": "salad_058",
+      "categories": [
+        "vegetable"
+      ],
+      "source_name": "bacon or bacon grease",
+      "reason": "Alternative ingredients; no single ingredient selected"
+    },
+    {
+      "recipe_id": "salad_064",
+      "categories": [
+        "fruit"
+      ],
+      "source_name": "Whipped cream or dessert topping",
+      "reason": "Alternative ingredients; no single ingredient selected"
+    },
+    {
+      "recipe_id": "salad_065",
+      "categories": [
+        "fruit"
+      ],
+      "source_name": "Wilderness lemon (or a little less)",
+      "reason": "Ambiguous or incomplete transcription"
+    },
+    {
+      "recipe_id": "salad_069",
+      "categories": [
+        "fruit"
+      ],
+      "source_name": "peach or apricot pie filling",
+      "reason": "Alternative ingredients; no single ingredient selected"
+    },
+    {
+      "recipe_id": "salad_073",
+      "categories": [
+        "fruit"
+      ],
+      "source_name": "seedless grapes or fresh",
+      "reason": "Ambiguous or incomplete transcription"
+    },
+    {
+      "recipe_id": "salad_086",
+      "categories": [
+        "jello"
+      ],
+      "source_name": "lobster or crab (mashed)",
+      "reason": "Alternative ingredients; no single ingredient selected"
+    },
+    {
+      "recipe_id": "salad_086",
+      "categories": [
+        "jello"
+      ],
+      "source_name": "chopped olives or green peppers",
+      "reason": "Alternative ingredients; no single ingredient selected"
+    },
+    {
+      "recipe_id": "salad_096",
+      "categories": [
+        "jello"
+      ],
+      "source_name": "rasp. or lemon jello",
+      "reason": "Alternative ingredients; no single ingredient selected"
+    },
+    {
+      "recipe_id": "salad_099",
+      "categories": [
+        "jello"
+      ],
+      "source_name": "heavy cream whipped or 1 pkg topping mix",
+      "reason": "Alternative ingredients; no single ingredient selected"
+    },
+    {
+      "recipe_id": "salad_101",
+      "categories": [
+        "jello"
+      ],
+      "source_name": "orange or 1 small can mandarin oranges cut up",
+      "reason": "Alternative ingredients; no single ingredient selected"
+    },
+    {
+      "recipe_id": "salad_103",
+      "categories": [
+        "jello"
+      ],
+      "source_name": "celery and apples or pineapple and grapes",
+      "reason": "Ambiguous or incomplete transcription"
+    },
+    {
+      "recipe_id": "salad_114",
+      "categories": [
+        "fruit"
+      ],
+      "source_name": "cream whipped (or 1 pkg. dream whip)",
+      "reason": "Alternative ingredients; no single ingredient selected"
+    },
+    {
+      "recipe_id": "salad_115",
+      "categories": [
+        "fruit"
+      ],
+      "source_name": "lemon or lime juice",
+      "reason": "Alternative ingredients; no single ingredient selected"
+    },
+    {
+      "recipe_id": "salad_123",
+      "categories": [
+        "jello"
+      ],
+      "source_name": "juice from Bing cherries and enough cold water to make a cup.",
+      "reason": "Ambiguous or incomplete transcription"
+    },
+    {
+      "recipe_id": "salad_126",
+      "categories": [
+        "fruit"
+      ],
+      "source_name": "hot peach syrup (or peach syrup & water)",
+      "reason": "Ambiguous or incomplete transcription"
+    },
+    {
+      "recipe_id": "salad_127",
+      "categories": [
+        "fruit"
+      ],
+      "source_name": "whipped cream (or 1 pkg. dream whip)",
+      "reason": "Alternative ingredients; no single ingredient selected"
+    },
+    {
+      "recipe_id": "salad_130",
+      "categories": [
+        "fruit"
+      ],
+      "source_name": "whipping cream or 1 pkg. dream whip",
+      "reason": "Alternative ingredients; no single ingredient selected"
+    },
+    {
+      "recipe_id": "salad_133",
+      "categories": [
+        "jello"
+      ],
+      "source_name": "Cherry or Strawberry Jello",
+      "reason": "Alternative ingredients; no single ingredient selected"
+    },
+    {
+      "recipe_id": "salad_146",
+      "categories": [
+        "jello"
+      ],
+      "source_name": "beet juice & pineapple combined",
+      "reason": "Ambiguous or incomplete transcription"
+    },
+    {
+      "recipe_id": "salad_166",
+      "categories": [
+        "fruit"
+      ],
+      "source_name": "bananas or oranges",
+      "reason": "Alternative ingredients; no single ingredient selected"
+    },
+    {
+      "recipe_id": "salad_180",
+      "categories": [
+        "vegetable"
+      ],
+      "source_name": "sweet red pepper (chopped) or 3 tablespoons chopped pimento",
+      "reason": "Alternative ingredients; no single ingredient selected"
+    },
+    {
+      "recipe_id": "salad_184",
+      "categories": [
+        "vegetable"
+      ],
+      "source_name": "salmon or tuna",
+      "reason": "Alternative ingredients; no single ingredient selected"
+    }
+  ]
+}
